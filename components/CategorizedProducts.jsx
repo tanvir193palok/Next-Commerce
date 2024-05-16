@@ -1,6 +1,6 @@
-import ProductCard from "../ProductCard";
+import ProductCard from "./ProductCard";
 
-const NewArrivedProduct = () => {
+const CategorizedProduct = () => {
   return (
     <div className="container pb-16">
       <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">
@@ -16,4 +16,4 @@ const NewArrivedProduct = () => {
   );
 };
 
-export default NewArrivedProduct;
+export default CategorizedProduct;

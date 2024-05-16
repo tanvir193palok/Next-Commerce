@@ -9,9 +9,7 @@ const Navbar = () => {
           <span className="text-white">
             <i className="fa-solid fa-bars"></i>
           </span>
-          <span className="capitalize ml-2 text-white">
-            All Categories
-          </span>
+          <span className="capitalize ml-2 text-white">All Categories</span>
 
           {/* Dropdown */}
           <DropDown />
@@ -45,7 +43,7 @@ const Navbar = () => {
             </Link>
           </div>
           <Link
-            href="pages/login.html"
+            href="/login"
             className="text-gray-200 hover:text-white transition"
           >
             Login
