@@ -1,0 +1,58 @@
+[
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe41"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a0001"
+    },
+    "name": "Leg extension/Lying leg curl",
+    "price": 60000,
+    "discountPercentage": 12.5,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952142/samples/Personal/Gym/Dual-1_m7fyrm.jpg",
+    "rating": 5,
+    "reviews": 130
+  },
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe42"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a0008"
+    },
+    "name": "Plate Loaded Iso Lateral Leg Press",
+    "price": 45000,
+    "discountPercentage": 12.5,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952145/samples/Personal/Gym/Lateral-1_tybxwx.jpg",
+    "rating": 4.8,
+    "reviews": 180
+  },
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe43"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a000e"
+    },
+    "name": "Cozy Bed",
+    "price": 80000,
+    "discountPercentage": 15,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715954166/samples/Personal/Furniture/Bed-1_gmrwfp.jpg",
+    "rating": 4.6,
+    "reviews": 180
+  },
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe44"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a0014"
+    },
+    "name": "Rocking Chair",
+    "price": 25000,
+    "discountPercentage": 12.5,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715954172/samples/Personal/Furniture/RockingChair-1_en0rv0.png",
+    "reviews": 130,
+    "rating": 5
+  }
+]

@@ -1,8 +1,8 @@
 import Link from "next/link";
-import SocialLogin from "../SocialLogin";
-import RegisterForm from "@/components/auth/Register";
+import SocialLogin from "../../../components/auth/SocialLogin";
+import RegisterForm from "@/components/auth/RegisterForm";
 
-const page = () => {
+const RegisterPage = () => {
   return (
     <div className="contain py-16">
       <div className="max-w-lg mx-auto shadow px-6 py-7 rounded overflow-hidden">
@@ -38,4 +38,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default RegisterPage;

@@ -6,7 +6,7 @@ const Header = ({ isAuth }) => {
     <header className="py-4 shadow-sm bg-white">
       <div className="container flex items-center justify-between">
         {isAuth ? (
-          <Link href="index.html">
+          <Link href="/">
             <Image
               src="/assets/images/logo.svg"
               width={80}
@@ -17,7 +17,7 @@ const Header = ({ isAuth }) => {
           </Link>
         ) : (
           <>
-            <Link href="index.html">
+            <Link href="/">
               <Image
                 src="/assets/images/logo.svg"
                 width={80}

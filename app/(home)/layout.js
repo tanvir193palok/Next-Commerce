@@ -3,6 +3,7 @@ import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CopyrightText from "@/components/CopyrightText";
+import { dbConnect } from "@/service/mongo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +12,8 @@ export const metadata = {
   description: "Website built with Next.js 14",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
+  await dbConnect();
   return (
     <html lang="en">
       <body className={inter.className}>
