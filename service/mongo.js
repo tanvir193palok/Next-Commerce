@@ -5,7 +5,7 @@ export async function dbConnect() {
     const conn = await mongoose.connect(
       String(process.env.MONGODB_CONNECTION_STRING),
       {
-        dbName: "E-commerce",
+        dbName: "Next-commerce",
       }
     );
 

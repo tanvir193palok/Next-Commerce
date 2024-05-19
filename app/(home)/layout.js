@@ -1,4 +1,7 @@
 import { Inter } from "next/font/google";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -14,6 +17,7 @@ export const metadata = {
 
 export default async function RootLayout({ children }) {
   await dbConnect();
+
   return (
     <html lang="en">
       <body className={inter.className}>

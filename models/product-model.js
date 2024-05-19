@@ -17,4 +17,4 @@ const productSchema = new Schema({
 });
 
 export const productModel =
-  mongoose.models.products ?? mongoose.model("products", productSchema);
+  mongoose.models.product ?? mongoose.model("product", productSchema);
