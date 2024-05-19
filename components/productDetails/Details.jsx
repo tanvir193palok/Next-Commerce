@@ -1,11 +1,11 @@
 import ImageGallery from "./ImageGallery";
 import ProductInfo from "./ProductInfo";
 
-const Details = () => {
+const Details = ({ product }) => {
   return (
     <div class="container grid grid-cols-2 gap-6">
-      <ImageGallery />
-      <ProductInfo />
+      <ImageGallery images={product?.gallery} />
+      <ProductInfo product={product} />
     </div>
   );
 };
