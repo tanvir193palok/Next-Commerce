@@ -23,3 +23,13 @@ export async function getDiscountPrice(price, discountPercentage) {
 
   return discountedPrice.toFixed(2);
 }
+
+//function to handle string undefined in category param
+export const getRefineCategory = (category) => {
+  const decodedCategory = decodeURI(category);
+
+  if (decodedCategory === "undefined") {
+    return "";
+  }
+  return decodedCategory;
+};

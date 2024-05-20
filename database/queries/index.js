@@ -6,8 +6,16 @@ import {
   replaceMongoIdInObject,
 } from "@/utils/data-util";
 
-export async function getAllProducts() {
-  const products = await productModel.find().lean();
+export async function getAllProducts(category) {
+  let products = await productModel.find().lean();
+
+  if (category) {
+    const categoriesToMatch = category.split("|");
+
+    products = products.filter((product) => {
+      return categoriesToMatch.includes(product?.category);
+    });
+  }
 
   return replaceMongoIdInArray(products);
 }

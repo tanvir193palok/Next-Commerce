@@ -1,6 +1,49 @@
-
+"use client";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const CategoryFilter = () => {
+  const [query, setQuery] = useState([]);
+  const pathName = usePathname();
+  const searchParams = useSearchParams();
+  const { replace } = useRouter();
+
+  const params = new URLSearchParams(searchParams);
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+
+    const name = e.target.name;
+    const checked = e.target.checked;
+
+    if (checked) {
+      setQuery((prev) => [...prev, name]);
+    } else {
+      const filteredQuery = query.filter((item) => item !== name);
+      setQuery(filteredQuery);
+    }
+  };
+
+  useEffect(() => {
+    const selectedQuery = params.get("category");
+
+    if (selectedQuery) {
+      const decodedCategory = decodeURI(selectedQuery);
+      const queryInCategory = decodedCategory.split("|");
+      setQuery(queryInCategory);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (query.length > 0) {
+      params.set("category", encodeURI(query.join("|")));
+    } else {
+      params.delete("category");
+    }
+
+    replace(`${pathName}?${params.toString()}`);
+  }, [query]);
+
   return (
     <div>
       <h3 className="text-xl text-gray-800 mb-3 uppercase font-medium">
@@ -10,48 +53,79 @@ const CategoryFilter = () => {
         <div className="flex items-center">
           <input
             type="checkbox"
-            name="cat-1"
-            id="cat-1"
+            name="Gym Accessories"
+            id="Gym Accessories"
+            checked={query.includes("Gym Accessories")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
+            onChange={handleSearch}
           />
-          <label for="cat-1" className="text-gray-600 ml-3 cusror-pointer">
-            Bedroom
+          <label
+            for="Gym Accessories"
+            className="text-gray-600 ml-3 cusror-pointer"
+          >
+            Gym Accessories
           </label>
           <div className="ml-auto text-gray-600 text-sm">(15)</div>
         </div>
         <div className="flex items-center">
           <input
             type="checkbox"
-            name="cat-2"
-            id="cat-2"
+            name="Home Furniture"
+            id="Home Furniture"
+            checked={query.includes("Home Furniture")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
+            onChange={handleSearch}
           />
-          <label for="cat-2" className="text-gray-600 ml-3 cusror-pointer">
-            Sofa
+          <label
+            for="Home Furniture"
+            className="text-gray-600 ml-3 cusror-pointer"
+          >
+            Home Furniture
           </label>
           <div className="ml-auto text-gray-600 text-sm">(9)</div>
         </div>
         <div className="flex items-center">
           <input
             type="checkbox"
-            name="cat-3"
-            id="cat-3"
+            name="Office Furniture"
+            id="Office Furniture"
+            checked={query.includes("Office Furniture")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
+            onChange={handleSearch}
           />
-          <label for="cat-3" className="text-gray-600 ml-3 cusror-pointer">
-            Office
+          <label
+            for="Office Furniture"
+            className="text-gray-600 ml-3 cusror-pointer"
+          >
+            Office Furniture
           </label>
           <div className="ml-auto text-gray-600 text-sm">(21)</div>
         </div>
         <div className="flex items-center">
           <input
             type="checkbox"
-            name="cat-4"
-            id="cat-4"
+            name="Gadgets"
+            id="Gadgets"
+            checked={query.includes("Gadgets")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
+            onChange={handleSearch}
           />
-          <label for="cat-4" className="text-gray-600 ml-3 cusror-pointer">
-            Outdoor
+          <label for="Gadgets" className="text-gray-600 ml-3 cusror-pointer">
+            Gadgets
+          </label>
+          <div className="ml-auto text-gray-600 text-sm">(10)</div>
+        </div>
+        <div className="flex items-center">
+          <input
+            type="checkbox"
+            name="Fashion"
+            id="Fashion"
+            checked={query.includes("Fashion")}
+            className="text-primary focus:ring-0 rounded-sm cursor-pointer"
+            onChange={handleSearch}
+          />
+          <label for="Fashion" className="text-gray-600 ml-3 cusror-pointer">
+            Fashion
           </label>
           <div className="ml-auto text-gray-600 text-sm">(10)</div>
         </div>
