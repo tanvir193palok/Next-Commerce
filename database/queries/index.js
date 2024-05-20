@@ -23,3 +23,14 @@ export async function getProductById(productId) {
 
   return replaceMongoIdInObject(product);
 }
+
+export async function getReleventProducts(tags, excludeProductId) {
+  const products = await productModel
+    .find({
+      tags: { $in: tags },
+      _id: { $ne: excludeProductId },
+    })
+    .lean();
+
+  return replaceMongoIdInArray(products);
+}

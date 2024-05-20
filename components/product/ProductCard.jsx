@@ -5,7 +5,6 @@ import StarRating from "./StarRating";
 import ClickActions from "./ClickActions";
 
 const ProductCard = ({ product }) => {
-  console.log(product);
   const discountPrice = getDiscountPrice(
     product?.price,
     product?.discountPercentage
@@ -14,25 +13,27 @@ const ProductCard = ({ product }) => {
   return (
     <div className="bg-white shadow rounded overflow-hidden group">
       <div className="relative">
-        <Image
-          src={product?.image}
-          width={400}
-          height={400}
-          alt="product 1"
-          className="w-full"
-        />
-        <ClickActions productId={product?.productId} />
+        <div className="w-full h-64 overflow-hidden">
+          <Image
+            src={product?.image || product?.gallery[0]}
+            width={400}
+            height={400}
+            alt={product?.name}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <ClickActions productId={product?.productId || product?.id} />
       </div>
       <div className="pt-4 pb-3 px-4">
         <Link href="#">
-          <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+          <h4 className="uppercase h-14 font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
             {product?.name}
           </h4>
         </Link>
         <div className="flex items-baseline mb-1 space-x-2">
           <p className="text-xl text-primary font-semibold">${discountPrice}</p>
           <p className="text-sm text-gray-400 line-through">
-            ${product?.price.toFixed(2)}
+            ${product?.price}
           </p>
         </div>
         <div className="flex items-center">

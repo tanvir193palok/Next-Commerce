@@ -12,7 +12,7 @@ const ShopPage = async () => {
       <Breadcrumb text={"Shop"} />
       <div className="container grid md:grid-cols-4 grid-cols-2 gap-6 pt-4 pb-16 items-start">
         <Sidebar />
-        <Products />
+        <Products products={products} />
       </div>
     </>
   );

@@ -1,15 +1,13 @@
 import ProductCard from "../product/ProductCard";
 
-const Products = () => {
+const Products = ({ products }) => {
   return (
     <div className="col-span-3">
       <div className="grid md:grid-cols-3 grid-cols-2 gap-6">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {products &&
+          products.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
       </div>
     </div>
   );
