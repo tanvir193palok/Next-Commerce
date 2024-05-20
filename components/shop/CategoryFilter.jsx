@@ -10,7 +10,7 @@ const CategoryFilter = () => {
 
   const params = new URLSearchParams(searchParams);
 
-  const handleSearch = (e) => {
+  const handleFilterByCategory = (e) => {
     e.preventDefault();
 
     const name = e.target.name;
@@ -57,7 +57,7 @@ const CategoryFilter = () => {
             id="Gym Accessories"
             checked={query.includes("Gym Accessories")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
-            onChange={handleSearch}
+            onChange={handleFilterByCategory}
           />
           <label
             for="Gym Accessories"
@@ -74,7 +74,7 @@ const CategoryFilter = () => {
             id="Home Furniture"
             checked={query.includes("Home Furniture")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
-            onChange={handleSearch}
+            onChange={handleFilterByCategory}
           />
           <label
             for="Home Furniture"
@@ -91,7 +91,7 @@ const CategoryFilter = () => {
             id="Office Furniture"
             checked={query.includes("Office Furniture")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
-            onChange={handleSearch}
+            onChange={handleFilterByCategory}
           />
           <label
             for="Office Furniture"
@@ -108,7 +108,7 @@ const CategoryFilter = () => {
             id="Gadgets"
             checked={query.includes("Gadgets")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
-            onChange={handleSearch}
+            onChange={handleFilterByCategory}
           />
           <label for="Gadgets" className="text-gray-600 ml-3 cusror-pointer">
             Gadgets
@@ -122,7 +122,7 @@ const CategoryFilter = () => {
             id="Fashion"
             checked={query.includes("Fashion")}
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
-            onChange={handleSearch}
+            onChange={handleFilterByCategory}
           />
           <label for="Fashion" className="text-gray-600 ml-3 cusror-pointer">
             Fashion

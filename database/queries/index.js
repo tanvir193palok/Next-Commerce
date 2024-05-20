@@ -6,7 +6,7 @@ import {
   replaceMongoIdInObject,
 } from "@/utils/data-util";
 
-export async function getAllProducts(category) {
+export async function getAllProducts(category, min, max) {
   let products = await productModel.find().lean();
 
   if (category) {
@@ -14,6 +14,23 @@ export async function getAllProducts(category) {
 
     products = products.filter((product) => {
       return categoriesToMatch.includes(product?.category);
+    });
+  }
+
+  if (min && max) {
+    console.log(true);
+    products = products.filter((product) => {
+      return product.price > parseInt(min) && product.price < parseInt(max);
+    });
+  } else if (min) {
+    console.log(true);
+    products = products.filter((product) => {
+      return product.price > parseInt(min);
+    });
+  } else if (max) {
+    console.log(true);
+    products = products.filter((product) => {
+      return product.price < parseInt(max);
     });
   }
 
