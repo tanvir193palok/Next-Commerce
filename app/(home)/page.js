@@ -5,10 +5,12 @@ import Features from "@/components/home/Features";
 import Navbar from "@/components/nav/Navbar";
 import CategorizedProduct from "@/components/CategorizedProducts";
 import { getTrendingProducts } from "@/database/queries";
+import { auth } from "@/auth";
 
 export default async function Home() {
   const trendingProducts = await getTrendingProducts();
-
+  const session = await auth();
+  console.log(session);
   return (
     <>
       <Navbar />

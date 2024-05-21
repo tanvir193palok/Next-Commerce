@@ -29,6 +29,20 @@ const PriceFilter = () => {
     replace(`${pathName}?${params.toString()}`);
   }, [min, max]);
 
+  const handleMinChange = (e) => {
+    const value = e.target.value;
+    if (!isNaN(value) || value === "") {
+      setMin(value);
+    }
+  };
+
+  const handleMaxChange = (e) => {
+    const value = e.target.value;
+    if (!isNaN(value) || value === "") {
+      setMax(value);
+    }
+  };
+
   return (
     <div className="pt-4">
       <h3 className="text-xl text-gray-800 mb-3 uppercase font-medium">
@@ -42,7 +56,7 @@ const PriceFilter = () => {
           value={min}
           className="w-full border-gray-300 focus:border-primary rounded focus:ring-0 px-3 py-1 text-gray-600 shadow-sm"
           placeholder="min"
-          onChange={(e) => setMin(e.target.value)}
+          onChange={handleMinChange}
         />
         <span className="mx-3 text-gray-500">-</span>
         <input
@@ -52,7 +66,7 @@ const PriceFilter = () => {
           value={max}
           className="w-full border-gray-300 focus:border-primary rounded focus:ring-0 px-3 py-1 text-gray-600 shadow-sm"
           placeholder="max"
-          onChange={(e) => setMax(e.target.value)}
+          onChange={handleMaxChange}
         />
       </div>
     </div>
