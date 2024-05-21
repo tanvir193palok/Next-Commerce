@@ -68,6 +68,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952144/samples/Personal/Gym/jammer-5_zpmwrb.jpg"
     ],
     "reviews": 130,
+    "rating": 4,
     "tags": ["Gym", "YANRE"]
   },
   {
@@ -91,6 +92,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952144/samples/Personal/Gym/ChestPress-5_rcu1wa.jpg"
     ],
     "reviews": 40,
+    "rating": 4,
     "tags": ["Gym", "YANRE"]
   },
   {
@@ -138,6 +140,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952144/samples/Personal/Gym/ChestPress-5_rcu1wa.jpg"
     ],
     "reviews": 30,
+    "rating": 4,
     "tags": ["Gym", "YANRE"]
   },
   {
@@ -161,6 +164,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952147/samples/Personal/Gym/Rack-5_nmnhlg.jpg"
     ],
     "reviews": 30,
+    "rating": 4,
     "tags": ["Gym", "YANRE"]
   },
   {
@@ -184,6 +188,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952147/samples/Personal/Gym/Shoulder-5_ebivos.jpg"
     ],
     "reviews": 130,
+    "rating": 4,
     "tags": ["Gym", "YANRE"]
   },
   {
@@ -207,6 +212,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952148/samples/Personal/Gym/Smith-5_wdhptz.jpg"
     ],
     "reviews": 130,
+    "rating": 4,
     "tags": ["Gym", "YANRE"]
   },
   {
@@ -230,6 +236,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715952145/samples/Personal/Gym/Lateral-5_pbcm0p.jpg"
     ],
     "reviews": 70,
+    "rating": 4,
     "tags": ["Gym", "YANRE"]
   },
   {
@@ -277,6 +284,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715954167/samples/Personal/Furniture/Bedj-2_g35iyn.jpg"
     ],
     "reviews": 30,
+    "rating": 3.5,
     "tags": ["Home Furniture", "Bed", "Hatil"]
   },
   {
@@ -300,6 +308,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715991295/samples/Personal/Furniture/Almira3_bwgc8n.jpg"
     ],
     "reviews": 130,
+    "rating": 4,
     "tags": ["Home Furniture", "Almira", "Hatil", "Cozy"]
   },
   {
@@ -346,6 +355,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715954170/samples/Personal/Furniture/Hatil-5_j2jmz8.jpg"
     ],
     "reviews": 150,
+    "rating": 4,
     "tags": ["Home Furniture", "Cozy", "Chair", "Hatil"]
   },
   {
@@ -416,6 +426,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715954174/samples/Personal/Furniture/Sofa-3_uelt8r.jpg"
     ],
     "reviews": 50,
+    "rating": 5,
     "tags": ["Home Furniture", "Cozy", "Sofa", "Regal Furniture"]
   },
   {
@@ -439,6 +450,7 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715954174/samples/Personal/Furniture/Sofadu-1_affcux.jpg"
     ],
     "reviews": 56,
+    "rating": 4,
     "tags": ["Home Furniture", "Cozy", "Sofa", "Regal Furniture"]
   },
   {
@@ -462,6 +474,474 @@
       "https://res.cloudinary.com/dllhc8cqz/image/upload/v1715954176/samples/Personal/Furniture/Sofasu-2_tsfkgm.jpg"
     ],
     "reviews": 20,
+    "rating": 4,
     "tags": ["Home Furniture", "Sofa", "Hatil"]
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0018"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0019"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },{
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a001a"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a001b"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a001c"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a001d"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a001e"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a001f"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0020"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0021"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0022"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0023"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0024"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0025"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0026"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0027"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0028"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0029"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a002a"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a002b"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a002c"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a002d"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a002e"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a002f"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0030"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0031"
+    },
+    "name": "",
+    "brand": "Hatil",
+    "shortDescription": "",
+    "description": "",
+    "category": "Office Furniture",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 90700,
+    "discountPercentage": 17,
+    "gallery": [],
+    "reviews": 20,
+    "rating": 4,
+    "tags": []
   }
 ]

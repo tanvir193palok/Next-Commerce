@@ -67,7 +67,7 @@ const Header = ({ isAuth }) => {
                 </div>
               </Link>
               <Link
-                href="#"
+                href="/account"
                 className="text-center text-gray-700 hover:text-primary transition relative"
               >
                 <div className="text-2xl">
@@ -78,7 +78,6 @@ const Header = ({ isAuth }) => {
             </div>
           </>
         )}
-        {/* Logo Section */}
       </div>
     </header>
   );

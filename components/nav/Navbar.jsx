@@ -1,7 +1,11 @@
 import Link from "next/link";
 import DropDown from "./DropDown";
+import { auth } from "@/auth";
+import Logout from "../auth/Logout";
 
-const Navbar = () => {
+const Navbar = async () => {
+  const session = await auth();
+
   return (
     <nav className="bg-gray-800">
       <div className="container flex">
@@ -18,13 +22,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between flex-grow md:pl-12 py-5">
           <div className="flex items-center space-x-6 capitalize">
             <Link
-              href="index.html"
+              href="/"
               className="text-gray-200 hover:text-white transition"
             >
               Home
             </Link>
             <Link
-              href="pages/shop.html"
+              href="/shop"
               className="text-gray-200 hover:text-white transition"
             >
               Shop
@@ -42,12 +46,16 @@ const Navbar = () => {
               Contact us
             </Link>
           </div>
-          <Link
-            href="/login"
-            className="text-gray-200 hover:text-white transition"
-          >
-            Login
-          </Link>
+          {session?.user ? (
+            <Logout />
+          ) : (
+            <Link
+              href="/login"
+              className="text-gray-200 hover:text-white transition"
+            >
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </nav>

@@ -4,7 +4,7 @@ import { signIn } from "next-auth/react";
 
 const SocialLogin = () => {
   const handleAuth = (provider) => {
-    signIn(provider, { callbackUrl: "http://localhost:3000" });
+    signIn(provider, { callbackUrl: "http://localhost:3000/account" });
   };
   return (
     <div className="mt-4 flex gap-4">
