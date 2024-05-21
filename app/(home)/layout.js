@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CopyrightText from "@/components/CopyrightText";
 import { dbConnect } from "@/service/mongo";
+import Navbar from "@/components/nav/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default async function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header isAuth={false} />
+        <Navbar />
         {children}
         <Footer />
         <CopyrightText />

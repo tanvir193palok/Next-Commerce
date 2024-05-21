@@ -11,7 +11,6 @@ export default async function Home() {
 
   return (
     <>
-      <Navbar />
       <Banner />
       <Features />
       <Categories />
