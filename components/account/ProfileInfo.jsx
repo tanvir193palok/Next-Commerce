@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const ProfileInfo = () => {
+const ProfileInfo = ({ user }) => {
   return (
     <div className="shadow rounded bg-white px-4 pt-6 pb-8">
       <div class="flex items-center justify-between mb-4">
@@ -10,8 +10,8 @@ const ProfileInfo = () => {
         </Link>
       </div>
       <div class="space-y-1">
-        <h4 class="text-gray-700 font-medium">John Doe</h4>
-        <p class="text-gray-800">example@mail.com</p>
+        <h4 class="text-gray-700 font-medium">{user?.name}</h4>
+        <p class="text-gray-800">{user?.email}</p>
         <p class="text-gray-800">0811 8877 988</p>
       </div>
     </div>

@@ -13,7 +13,7 @@ const LoginForm = () => {
     e.preventDefault();
 
     try {
-      const formData = new formData(e.currentTarget);
+      const formData = new FormData(e.currentTarget);
       const response = await login(formData);
 
       if (response.error) {
@@ -29,7 +29,7 @@ const LoginForm = () => {
   return (
     <>
       {error && <div className="text-xl text-red-500 text-center">{error}</div>}
-      <form onSubmit={onSubmit} autocomplete="off">
+      <form onSubmit={onSubmit}>
         <div className="space-y-2">
           <div>
             <label htmlFor="email" className="text-gray-600 mb-2 block">
