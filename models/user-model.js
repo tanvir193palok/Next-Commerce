@@ -17,6 +17,10 @@ const userSchema = new Schema({
     required: false,
     type: String,
   },
+  mobileNo: {
+    required: false,
+    type: String,
+  },
 });
 
 export const userModel =

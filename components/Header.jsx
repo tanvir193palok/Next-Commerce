@@ -1,7 +1,11 @@
+import { auth } from "@/auth";
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = ({ isAuth }) => {
+const Header = async ({ isAuth }) => {
+  const session = await auth();
+  const isAuthenticated = !!session?.user;
+
   return (
     <header className="py-4 shadow-sm bg-white">
       <div className="container flex items-center justify-between">
@@ -67,7 +71,7 @@ const Header = ({ isAuth }) => {
                 </div>
               </Link>
               <Link
-                href="/account"
+                href={isAuthenticated ? "/account" : "/login"}
                 className="text-center text-gray-700 hover:text-primary transition relative"
               >
                 <div className="text-2xl">

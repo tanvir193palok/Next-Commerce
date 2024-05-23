@@ -6,7 +6,7 @@ import ShippingInfo from "@/components/account/ShippingInfo";
 
 const AccountPage = async () => {
   const session = await auth();
-  console.log(session);
+
 
   return (
     <>
@@ -14,8 +14,8 @@ const AccountPage = async () => {
       <div class="container  items-start gap-6 pt-4 pb-16">
         <div class=" grid grid-cols-3 gap-4 mx-auto max-w-5xl">
           <ProfileInfo user={session?.user} />
-          <ShippingInfo />
-          <BillingInfo />
+          <ShippingInfo user={session?.user} />
+          <BillingInfo user={session?.user} />
         </div>
       </div>
     </>
