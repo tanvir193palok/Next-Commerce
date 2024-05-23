@@ -1,4 +1,3 @@
-// billingAddress-model.js
 import mongoose, { Schema } from "mongoose";
 
 const billingAddressSchema = new Schema({

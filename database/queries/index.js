@@ -1,4 +1,6 @@
+import { billingAddressModel } from "@/models/billingAddress-model";
 import { productModel } from "@/models/product-model";
+import { shippingAddressModel } from "@/models/shippingAddress-model";
 import { trendingProductModel } from "@/models/trendingProduct-model";
 
 import {
@@ -58,4 +60,16 @@ export async function getReleventProducts(tags, excludeProductId) {
     .lean();
 
   return replaceMongoIdInArray(products);
+}
+
+export async function getBillingInfo(email) {
+  const info = billingAddressModel.findOne({ email }).lean();
+
+  return info;
+}
+
+export async function getShippingInfo(email) {
+  const info = shippingAddressModel.findOne({ email }).lean();
+
+  return info;
 }

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import BillingForm from "./BillingForm";
 
-const BillingInfo = ({ user }) => {
+const BillingInfo = ({ user, info }) => {
   const [isEditing, setIsEditing] = useState(false);
 
   return (
@@ -20,13 +20,13 @@ const BillingInfo = ({ user }) => {
         </button>
       </div>
       {isEditing ? (
-        <BillingForm setIsEditing={setIsEditing} user={user} />
+        <BillingForm setIsEditing={setIsEditing} user={user} info={info} />
       ) : (
         <div className="space-y-1">
-          <h4 className="text-gray-700 font-medium">John Doe</h4>
-          <p className="text-gray-800">Medan, North Sumatera</p>
-          <p className="text-gray-800">20317</p>
-          <p className="text-gray-800">0811 8877 988</p>
+          <h4 className="text-gray-700 font-medium">{info?.name}</h4>
+          <p className="text-gray-800">{info?.location}</p>
+          <p className="text-gray-800">{info?.billingId}</p>
+          <p className="text-gray-800">{info?.mobileNo}</p>
         </div>
       )}
     </div>

@@ -1,18 +1,14 @@
-import { ObjectId } from "mongodb";
+
 import mongoose, { Schema } from "mongoose";
 
 const shippingAddressSchema = new Schema({
-  userId: {
-    required: true,
-    type: ObjectId,
-  },
   name: {
     required: true,
     type: String,
   },
   shippingId: {
     required: true,
-    type: Number,
+    type: String,
   },
   location: {
     required: false,
@@ -20,6 +16,10 @@ const shippingAddressSchema = new Schema({
   },
   mobileNo: {
     required: false,
+    type: String,
+  },
+  email: {
+    required: true,
     type: String,
   },
 });

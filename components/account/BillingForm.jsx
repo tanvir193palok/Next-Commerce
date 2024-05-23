@@ -1,12 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 
 const BillingForm = ({ setIsEditing, user }) => {
   const [error, setError] = useState("");
-  const router = useRouter();
-  console.log(user);
 
   async function onSubmit(e) {
     e.preventDefault();
