@@ -481,396 +481,486 @@
     "_id": {
       "$oid": "6647d5432b3c0e26799a0018"
     },
-    "name": "",
+    "name": "Cozy Single Chair",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from kiln-dried imported Beech wood and veneered engineered wood, this furniture piece features an elegant antique finish achieved through high-quality Italian UV and PU lacquer.",
+    "description": "Enhance your living space with this exquisite furniture piece, meticulously crafted from kiln-dried imported Beech wood combined with veneered engineered wood and MDF. The antique finish is achieved through the use of high-quality, environmentally friendly Italian Ultra Violet (UV) and Polyurethane (PU) lacquers, ensuring durability and a classic look. For your comfort, the furniture is upholstered with imported fabric that is both soft and durable, with the added convenience of being dry-cleanable. You can choose the fabric from a variety of available options to best match your decor. Every detail is considered, including the assembly and installation, which will be expertly handled by the HATIL team one day after delivery for CKD items. The high-quality imported hardware fittings ensure longevity and reliable performance.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 25700,
     "discountPercentage": 17,
-    "gallery": [],
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254826/samples/Personal/OfficeFurniture/Sofa-1_pvwowt.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254826/samples/Personal/OfficeFurniture/Sofa-2_fztn6h.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254827/samples/Personal/OfficeFurniture/Sofa-3_clfiwl.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254827/samples/Personal/OfficeFurniture/Sofa-4_gzotdz.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254827/samples/Personal/OfficeFurniture/Sofa-5_aqjie1.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 4.5,
+    "tags": ["Hatil", "Cozy", "Chair", "Office Furniture"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0019"
     },
-    "name": "",
+    "name": "Hatil Sofa Set Austin",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from kiln-dried imported Beech wood and veneered engineered wood, this furniture features imported fabric upholstery with soft, durable cushioning that can be dry-cleaned. Assembly or installation will be managed by the HATIL team post-delivery. Designed for indoor use with high-quality hardware fittings. Single seater weighs 34.00 kgs, and double seater weighs 50.00 kgs. Note: Natural wood variations and minor blemishes may occur.",
+    "description": "This exquisite furniture piece is crafted from kiln-dried imported Beech wood and veneered engineered wood, offering a blend of durability and elegance. The upholstery is made from imported fabric, providing soft and durable cushioning, with options to select from various fabrics. The fabric is also dry-cleanable for easy maintenance. The HATIL team will handle any necessary assembly or installation at the time of delivery, or one day after for CKD items. Designed exclusively for indoor use, this furniture features high-quality imported hardware fittings, ensuring longevity and reliability. Please refer to the images for detailed dimensions. The single seater weighs 34.00 kgs, while the double seater weighs 50.00 kgs. As most of our furniture is made from natural components, expect natural differences in grain construction and occasional minor blemishes, adding unique character to each piece.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 60700,
     "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
-    "rating": 4,
-    "tags": []
-  },{
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254827/samples/Personal/OfficeFurniture/SofaAustin-1_ohrf7p.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254827/samples/Personal/OfficeFurniture/SofaAustin-2_ujjyzk.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254828/samples/Personal/OfficeFurniture/SofaAustin-3_xn9knq.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254828/samples/Personal/OfficeFurniture/SofaAustin-4_f932qm.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254828/samples/Personal/OfficeFurniture/SofaAustin-5_yce3ob.jpg"
+    ],
+    "reviews": 40,
+    "rating": 5,
+    "tags": ["Hatil", "Sofa", "Office Furniture"]
+  },
+  {
     "_id": {
       "$oid": "6647d5432b3c0e26799a001a"
     },
-    "name": "",
+    "name": "Work Station-1",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from superior quality melamine-faced particle board, this furniture features chrome-finished mild steel and MIG welding for durability. Cutting and bending are performed with Japanese CNC machines for precision. Assembly or installation is handled by the HATIL team post-delivery. Designed for indoor use with high-quality hardware fittings. Refer to images for dimensions.",
+    "description": "This premium furniture piece is made from high-quality melamine-faced particle board, providing excellent density and load-bearing capacity. It features edge banding in matching color, applied using the latest Homag line technology. The chrome-finished mild steel components are welded with Metal Inert Gas (MIG) technology, ensuring superior durability and strength. Precision cutting and bending are achieved using state-of-the-art Japanese CNC machines, delivering 99.99% accuracy. Any required assembly or installation will be professionally managed by the HATIL team at the time of delivery, or one day later for CKD items. Designed for indoor use, this furniture includes high-quality imported hardware fittings for reliable performance. Please refer to the images for detailed dimension information.",
     "category": "Office Furniture",
-    "count": 13,
+    "count": 3,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
+    "price": 40700,
+    "discountPercentage": 10,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254828/samples/Personal/OfficeFurniture/WorkStation-1_aeer1k.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254829/samples/Personal/OfficeFurniture/WorkStation-2_axidcr.jpg"
+    ],
+    "reviews": 50,
     "rating": 4,
-    "tags": []
+    "tags": ["Hatil", "Work Station", "Office Furniture"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a001b"
     },
-    "name": "",
+    "name": "Work Station-2",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from superior quality melamine-faced particle board, this furniture features chrome-finished mild steel and MIG welding for durability. Cutting and bending are performed with Japanese CNC machines for precision. Assembly or installation is handled by the HATIL team post-delivery. Designed for indoor use with high-quality hardware fittings. Refer to images for dimensions.",
+    "description": "This premium furniture piece is made from high-quality melamine-faced particle board, providing excellent density and load-bearing capacity. It features edge banding in matching color, applied using the latest Homag line technology. The chrome-finished mild steel components are welded with Metal Inert Gas (MIG) technology, ensuring superior durability and strength. Precision cutting and bending are achieved using state-of-the-art Japanese CNC machines, delivering 99.99% accuracy. Any required assembly or installation will be professionally managed by the HATIL team at the time of delivery, or one day later for CKD items. Designed for indoor use, this furniture includes high-quality imported hardware fittings for reliable performance. Please refer to the images for detailed dimension information.",
     "category": "Office Furniture",
-    "count": 13,
+    "count": 10,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 42700,
+    "discountPercentage": 7,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254829/samples/Personal/OfficeFurniture/Wt-1_hkk623.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254829/samples/Personal/OfficeFurniture/Wt-2_fshunb.jpg"
+    ],
     "reviews": 20,
     "rating": 4,
-    "tags": []
+    "tags": ["Hatil", "Work Station", "Office Furniture"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a001c"
     },
-    "name": "",
+    "name": "Shelf Alabama-110",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from superior quality melamine-faced particle board with international standard density and load-bearing capacity. Features same color edge banding done using the latest Homag line. Assembly or installation is managed by the HATIL team post-delivery. Designed for indoor use with high-quality imported hardware fittings. Refer to images for dimensions. Weight: 50.00 kgs.",
+    "description": "This premium furniture piece is made from superior quality melamine-faced particle board, offering excellent density and load-bearing capacity that meets international standards. The edge banding is done in the same color using the latest Homag line technology, ensuring a seamless and polished look. Any required assembly or installation will be professionally managed by the HATIL team at the time of delivery, or one day later for CKD items. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings to ensure durability and reliable performance. Please refer to the images for detailed dimension information. The furniture weighs 50.00 kgs.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 23700,
+    "discountPercentage": 7,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254826/samples/Personal/OfficeFurniture/S-1_roo9xc.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254826/samples/Personal/OfficeFurniture/S-2_swj5re.jpg"
+    ],
     "reviews": 20,
     "rating": 4,
-    "tags": []
+    "tags": ["Hatil", "Office Furniture"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a001d"
     },
-    "name": "",
+    "name": "Fixed Chair Avearez",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Made from powder-coated mild steel, this furniture features high-quality fabric upholstery with soft and durable cushioning, available in various options. MIG welding ensures superior durability. Cutting and bending are performed with Japanese CNC machines for precision. Assembly is handled by the HATIL team. Designed for indoor use with high-quality imported hardware fittings. Refer to images for dimensions.",
+    "description": "This furniture piece is constructed from powder-coated mild steel, ensuring a robust and long-lasting frame. It features high-quality fabric upholstery that offers both softness and durability, with multiple fabric options available to suit your preference. The frame is welded using Metal Inert Gas (MIG) technology, providing superior strength and durability. Precision cutting and bending are achieved using state-of-the-art Japanese CNC machines, delivering 99.99% accuracy. Any necessary assembly or installation will be handled by the HATIL team, ensuring a seamless setup process. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings to guarantee reliability and longevity. Please refer to the images for detailed dimension information.",
     "category": "Office Furniture",
-    "count": 13,
+    "count": 27,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 12700,
     "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254821/samples/Personal/OfficeFurniture/C-1_g3wuot.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254821/samples/Personal/OfficeFurniture/C-2_csq2ir.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254821/samples/Personal/OfficeFurniture/C-4_jbpwhb.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254822/samples/Personal/OfficeFurniture/C-3_h3nvey.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254822/samples/Personal/OfficeFurniture/C-5_gbyu9z.jpg"
+    ],
+    "reviews": 70,
+    "rating": 5,
+    "tags": ["Hatil", "Office Furniture", "Chair"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a001e"
     },
-    "name": "",
+    "name": "Fiexd Chair Dalton-12",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Constructed from powder-coated mild steel, this furniture features high-quality fabric upholstery with soft, durable cushioning available in various options. MIG welding ensures superior quality and durability. Precision cutting and bending are achieved using Japanese CNC machines. Designed for indoor use with high-quality imported hardware fittings. Refer to images for dimensions.",
+    "description": "This premium furniture piece is made from powder-coated mild steel, providing a strong and durable frame. It features high-quality fabric upholstery that offers both softness and long-lasting comfort, with multiple fabric options to choose from. The frame is welded using Metal Inert Gas (MIG) technology, ensuring superior quality and durability. Cutting and bending processes are executed with the latest Japanese CNC machines, guaranteeing 99.99% accuracy. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings to ensure reliability and longevity. Please refer to the images for detailed dimension information.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "price": 4700,
+    "discountPercentage": 5,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254822/samples/Personal/OfficeFurniture/Ch-1_up4oes.jpg0",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254822/samples/Personal/OfficeFurniture/Ch-2_zfjlyy.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254821/samples/Personal/OfficeFurniture/Ch-3_l1qxnh.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254822/samples/Personal/OfficeFurniture/Ch-4_zxdst9.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/Ch-5_nerlqe.jpg"
+    ],
+    "reviews": 50,
+    "rating": 4.8,
+    "tags": ["Hatil", "Office Furniture", "Chair"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a001f"
     },
-    "name": "",
+    "name": "Fixed Chair Anthem-203",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Constructed from powder-coated mild steel, this furniture features high-quality fabric upholstery with soft, durable cushioning available in various options. MIG welding ensures superior quality and durability. Precision cutting and bending are achieved using Japanese CNC machines. Designed for indoor use with high-quality imported hardware fittings. Refer to images for dimensions.",
+    "description": "This premium furniture piece is crafted from powder-coated mild steel, ensuring a robust and durable frame. It features high-quality fabric upholstery that provides soft and durable cushioning, with multiple fabric options to choose from. The frame is welded using Metal Inert Gas (MIG) technology, ensuring superior quality and durability. Cutting and bending processes are performed using the latest Japanese CNC machines, guaranteeing 99.99% accuracy. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings for reliable performance. Please refer to the images for detailed dimension information.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 13700,
     "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254822/samples/Personal/OfficeFurniture/Chair-1_v5fjyb.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/Chair-2_iokzby.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/Chair-3_zsqg2t.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/Chair-4_xrrznu.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/Chair-5_am7tfm.jpg"
+    ],
+    "reviews": 10,
     "rating": 4,
-    "tags": []
+    "tags": ["Hatil", "Office Furniture", "Chair"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0020"
     },
-    "name": "",
+    "name": "Conference Table",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from kiln-dried imported Beech wood and veneered engineered wood, this table features an antique finish with high-quality, eco-friendly Italian UV and PU lacquer. Assembly is managed by the HATIL team post-delivery. Designed for indoor use with high-quality imported hardware fittings. Please refer to images for dimensions. Note: Table only, no chairs included. Natural variations in grain and occasional minor blemishes are normal.",
+    "description": "This elegant table is made from kiln-dried imported Beech wood combined with veneered engineered wood, offering both durability and style. The antique finish is achieved through high-quality, environmentally friendly Italian Ultra Violet (UV) and Polyurethane (PU) lacquers. Designed for indoor use, this table includes high-quality imported hardware fittings to ensure long-lasting performance. Any required assembly or installation will be professionally managed by the HATIL team at the time of delivery, or one day later for CKD items. Please refer to the images for detailed dimension information. Note that this product includes only the table; chairs are not included. As this furniture is made from natural components, expect natural differences in grain construction and occasional minor blemishes, adding unique character to each piece.",
     "category": "Office Furniture",
-    "count": 13,
+    "count": 5,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 126700,
     "discountPercentage": 17,
-    "gallery": [],
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/ct-1_gbntvn.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/ct-2_lwpofe.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 5,
+    "tags": ["Hatil", "Office Furniture", "Conference Table"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0021"
     },
-    "name": "",
+    "name": "Director Table W-120",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from kiln-dried imported Beech wood, veneered engineered wood, and veneered MDF, this furniture features an antique finish with high-quality, eco-friendly Italian UV and PU lacquer. Assembly is managed by the HATIL team post-delivery. Designed for indoor use with high-quality imported hardware fittings. Weight: 201.50 kgs. Please refer to images for dimensions. Natural variations in grain and occasional minor blemishes are normal.",
+    "description": "This exquisite furniture piece is made from kiln-dried imported Beech wood, veneered engineered wood, and veneered MDF, providing a combination of strength and elegance. The antique finish is achieved using high-quality, environmentally friendly Italian Ultra Violet (UV) and Polyurethane (PU) lacquers. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings to ensure durability and reliable performance. Any necessary assembly or installation will be professionally managed by the HATIL team at the time of delivery, or one day later for CKD items. Please refer to the images for detailed dimension information. The furniture weighs 201.50 kgs. As most of our furniture is made from natural components, expect natural differences in grain construction and occasional minor blemishes, adding unique character to each piece.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
+    "price": 97700,
+    "discountPercentage": 7,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/Dt-1_isrgl8.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/Dt-2_nheoiq.jpg"
+    ],
+    "reviews": 15,
     "rating": 4,
-    "tags": []
+    "tags": ["Hatil", "Office Furniture"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0022"
     },
-    "name": "",
+    "name": "Executive Table Auden-230",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Constructed from superior quality melamine-faced particle board, kiln-dried imported Beech wood, and veneered engineered wood, this furniture features an antique finish with eco-friendly Italian UV and PU lacquer. It includes same color edge banding done using the latest Homag line and a mild steel frame with MIG welding for durability. Cutting and bending are performed with Japanese CNC machines. Assembly is managed by the HATIL team post-delivery. Designed for indoor use with high-quality imported hardware fittings. Refer to images for dimensions.",
+    "description": "This premium furniture piece is crafted from a combination of superior quality melamine-faced particle board, kiln-dried imported Beech wood, and veneered engineered wood, offering exceptional density and load-bearing capacity. It boasts an antique finish achieved through high-quality, environmentally friendly Italian Ultra Violet (UV) and Polyurethane (PU) lacquers. The edge banding is done in the same color using the latest Homag line technology, ensuring a seamless look. The frame is made of mild steel (MS sheet) and is welded using Metal Inert Gas (MIG) technology for superior quality and durability. Precision cutting and bending are executed using state-of-the-art Japanese CNC machines, delivering 99.99% accuracy. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings for reliable performance. Any required assembly or installation will be professionally managed by the HATIL team at the time of delivery, or one day later for CKD items. Please refer to the images for detailed dimension information.",
     "category": "Office Furniture",
-    "count": 13,
+    "count": 33,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 23700,
     "discountPercentage": 17,
-    "gallery": [],
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/Et-1_ajduhj.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/Et-2_wjiqgr.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 4.3,
+    "tags": ["Hatil", "Office Furniture"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0023"
     },
-    "name": "",
+    "name": "File Cabinet",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Constructed from commercial cold rolled carbon steel sheet conforming to Japanese JIS-SPCC standards, this furniture is finished with international standard automatic PT line and powder coating. MIG welding ensures superior quality and durability. Precision cutting and bending are achieved using Japanese CNC machines. Designed for indoor use with high-quality imported hardware fittings. Weight: 51.00 kgs. Refer to images for dimensions.",
+    "description": "This high-quality furniture piece is made from commercial cold rolled carbon steel sheet that conforms to Japanese JIS-SPCC standards, ensuring excellent strength and reliability. The finish is applied using an international standard automatic PT line and powder coating oven, providing a sleek and durable surface. The frame is welded with Metal Inert Gas (MIG) technology, guaranteeing superior quality and durability. Cutting and bending processes are executed with the latest Japanese CNC machines, achieving 99.99% accuracy. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings to ensure longevity and performance. The furniture weighs 51.00 kgs. Please refer to the images for detailed dimension information.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 30700,
+    "discountPercentage": 13,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/File-1_usg5yl.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/File-2_zvhqmh.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 3.2,
+    "tags": ["Hatil", "Office Furniture"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0024"
     },
-    "name": "",
+    "name": "Sofa-Gelam108",
     "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "shortDescription": "Crafted from kiln-dried imported Beech wood and veneered engineered wood, this furniture features an antique finish with high-quality, eco-friendly Italian UV and PU lacquer. Imported fabric upholstery provides soft and durable cushioning, with options for selection. Assembly is managed by the HATIL team post-delivery. Designed for indoor use with high-quality imported hardware fittings. Refer to images for dimensions. Note: Available in single, double, and three-seater options. Weight: Single seater 28.00 kgs, Double seater 37.00 kgs, Three seater 47.00 kgs. Natural variations in grain and occasional minor blemishes are normal.",
+    "description": "This exquisite furniture piece is crafted from kiln-dried imported Beech wood and veneered engineered wood, ensuring both durability and elegance. The antique finish is achieved through high-quality, environmentally friendly Italian Ultra Violet (UV) and Polyurethane (PU) lacquers. Upholstered with imported fabric, the furniture offers soft and durable cushioning, with the flexibility to select from available options. The fabric is also dry-cleanable for easy maintenance. Assembly or installation will be professionally managed by the HATIL team at the time of delivery, or one day later for CKD items. Designed exclusively for indoor use, this furniture includes high-quality imported hardware fittings for reliable performance. Please refer to the images for detailed dimension information. Available in single, double, and three-seater options, with weights of Single seater 28.00 kgs, Double seater 37.00 kgs, and Three seater 47.00 kgs. As most of our furniture is made from natural components, expect natural differences in grain construction and occasional minor blemishes, adding unique character to each piece.",
     "category": "Office Furniture",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 25500,
     "discountPercentage": 17,
-    "gallery": [],
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/Gelam-1_j3t4za.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/Gelam-2_ki0ksa.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254825/samples/Personal/OfficeFurniture/Gelam-3_b31rdw.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254825/samples/Personal/OfficeFurniture/Gelam-4_dwkse5.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254825/samples/Personal/OfficeFurniture/Gelam-5_qttvxr.jpg"
+    ],
     "reviews": 20,
     "rating": 4,
-    "tags": []
+    "tags": ["Hatil", "Office Furniture", "Sofa"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0025"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
-    "count": 13,
-    "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "name": "ASUS ROG Ranger BP3703 Gaming Backpack",
+    "brand": "ASUS",
+    "shortDescription": "The bag features Aura RGB dynamic illumination with adaptive brightness and a modular front compartment that doubles as a messenger bag. It includes a suitcase-style zip, anti-theft zip clip, hidden backrest pocket, and multiple compartments for effortless organization. With a 20L capacity, it can hold up to a 17” laptop.",
+    "description": "This innovative bag boasts Aura RGB dynamic illumination with adaptive brightness, offering a stylish and customizable look. The modular front compartment doubles as a convenient messenger bag, providing versatility for various needs. Designed for secure and efficient travel, it features a suitcase-style zip, an anti-theft zip clip, and a hidden backrest pocket. Effortless organization is ensured with multiple compartments, making it easy to keep your belongings in order. With a 20L capacity, this bag provides ample space for your essentials and can accommodate up to a 17” laptop.",
+    "category": "Laptop Accessories",
+    "count": 18,
+    "sku": "TyQJI",
+    "price": 26700,
+    "discountPercentage": 15,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257375/samples/Personal/Laptop%20Accessories/As-1_e7aewy.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257376/samples/Personal/Laptop%20Accessories/As-2_xex5nu.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257376/samples/Personal/Laptop%20Accessories/As-3_jaldvq.jpg"
+    ],
+    "reviews": 60,
+    "rating": 5,
+    "tags": ["ASUS", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0026"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
+    "name": "ASUS ROG Gaming Backpack BP4701",
+    "brand": "ASUS",
+    "shortDescription": "Featuring holographic bold cybertext printing and a high-visibility reflective logo, this bag has a roll-up design that fits up to a 17-inch laptop. It ensures well-organized storage with top zipper closure and exterior pockets, and is made from high-quality fabric that withstands daily wear and tear.",
+    "description": "This stylish and functional bag showcases holographic bold cybertext printing and a high-visibility reflective logo, ensuring you stand out in any setting. The roll-up design accommodates laptops up to 43.18 cm (17 inches), providing flexibility and convenience. It offers well-organized storage options with a top zipper closure and multiple exterior pockets, making it easy to access and manage your gear. Constructed from high-quality fabric, this bag is built to withstand daily wear and tear, ensuring durability and long-lasting use.",
+    "category": "Laptop Accessories",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 3700,
+    "discountPercentage": 10,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257376/samples/Personal/Laptop%20Accessories/Bag-1_srxkbu.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257377/samples/Personal/Laptop%20Accessories/Bag-2_fcjpqb.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257377/samples/Personal/Laptop%20Accessories/Bag-3_tauzjv.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 4.3,
+    "tags": ["ASUS", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0027"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
+    "name": "ASUS ROG AD240-00E 240W DC Adapter",
+    "brand": "ASUS",
+    "shortDescription": "With 240W of power, this charger can rapidly charge powerful gaming laptops. It features over voltage and over current protection, and is compact enough to take anywhere.",
+    "description": "This high-performance charger delivers 240W of power, allowing powerful gaming laptops to charge at warp speed. It is equipped with over voltage and over current protection to ensure safe and reliable charging. Despite its powerful capabilities, the charger is compact and portable, making it easy to carry and use anywhere.",
+    "category": "Laptop Accessories",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
+    "price": 9700,
     "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257377/samples/Personal/Laptop%20Accessories/C-1_kkapwf.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257378/samples/Personal/Laptop%20Accessories/C-2_o2pwct.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257378/samples/Personal/Laptop%20Accessories/C-3_yrbfpq.jpg"
+    ],
+    "reviews": 40,
     "rating": 4,
-    "tags": []
+    "tags": ["ASUS", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0028"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
-    "count": 13,
+    "name": "ASUS AC65-00 65W USB Type-C Laptop Adapter",
+    "brand": "ASUS",
+    "shortDescription": "This compact and portable charger features a USB Type-C connector with USB PD 3.0 technology and multiple output protection.",
+    "description": "Designed for convenience, this charger boasts a compact and portable design, making it easy to carry anywhere. It comes equipped with a USB Type-C connector and utilizes USB Power Delivery (PD) 3.0 technology for efficient and fast charging. The charger also includes multiple output protection features, ensuring safe and reliable charging for your devices.",
+    "category": "Laptop Accessories",
+    "count": 23,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 3700,
+    "discountPercentage": 10,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257379/samples/Personal/Laptop%20Accessories/ch-1_qqvyhn.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 5,
+    "tags": ["ASUS", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0029"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
-    "count": 13,
+    "name": "Foldable Laptop Stand",
+    "brand": "UGREEN",
+    "shortDescription": "Compatible with laptops from 8 to 17.3 inches, this stand offers height adjustment from 46.5 to 136.5mm. Dimensions when unfolded: 270 x 235.6 x 136.5 mm; dimensions before folding: 270 x 55 x 136.5 mm.",
+    "description": "This versatile laptop stand is compatible with laptops ranging from 8 to 17.3 inches, providing a flexible solution for various devices. It features adjustable height settings from 46.5 to 136.5mm, allowing for ergonomic positioning. When unfolded, the stand measures 270 x 235.6 x 136.5 mm, and when folded, it compacts down to 270 x 55 x 136.5 mm, making it easy to store and transport.",
+    "category": "Laptop Accessories",
+    "count": 35,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
+    "price": 1700,
+    "discountPercentage": 7,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257379/samples/Personal/Laptop%20Accessories/Hl-1_wgn6gi.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257379/samples/Personal/Laptop%20Accessories/Hl-2_zg9r7c.jpg"
+    ],
+    "reviews": 23,
     "rating": 4,
-    "tags": []
+    "tags": ["UGREEN", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a002a"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
+    "name": "UGREEN LP230 (80348)",
+    "brand": "UGREEN",
+    "shortDescription": "Suitable for 11-17 inch laptops, this stand offers adjustable height from 87 to 131mm. It features a stable structure with a 20kg bearing capacity and is made from stainless steel, silicone, PC, and ABS.",
+    "description": "Designed for 11-17 inch laptops, this stand provides an adjustable height range of 87 to 131mm, allowing for ergonomic use. It boasts a stable structure capable of bearing up to 20kg. Constructed from high-quality materials including stainless steel, silicone, PC, and ABS, this stand ensures durability and stability for long-term use.",
+    "category": "Laptop Accessories",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 950,
+    "discountPercentage": 10,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257380/samples/Personal/Laptop%20Accessories/Hol-1_nmmbyi.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257380/samples/Personal/Laptop%20Accessories/Hol-2_wqyxdq.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 4.1,
+    "tags": ["UGREEN", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a002b"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
+    "name": "ASUS ROG Archer Backpack BP1505",
+    "brand": "ASUS",
+    "shortDescription": "Featuring a modular compartment design, this lightweight bag is water-repellent for added protection.",
+    "description": "This versatile bag is designed with a modular compartment system, allowing for easy organization and customization of your storage space. It is water-repellent, providing protection against the elements, and lightweight, ensuring comfortable portability for daily use.",
+    "category": "Laptop Accessories",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 8790,
+    "discountPercentage": 15,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257381/samples/Personal/Laptop%20Accessories/LB-1_dmitr6.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257381/samples/Personal/Laptop%20Accessories/LB-2_gealpb.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257381/samples/Personal/Laptop%20Accessories/LB-3_tfdhhi.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 5,
+    "tags": ["ASUS", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a002c"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
+    "name": "ASUS AP4600 Professional Backpack",
+    "brand": "ASUS",
+    "shortDescription": "Featuring over a dozen specially designed pockets for quick access, this slim and lightweight bag offers a water-repellent and scratch-resistant finish with a breathable shoulder harness for everyday cooling comfort.",
+    "description": "This practical and stylish bag is equipped with over a dozen specially designed pockets, providing quick and easy access to your essentials on the go. It features a water-repellent and scratch-resistant finish, ensuring durability and protection for everyday use. The slim and lightweight design, combined with a breathable shoulder harness, offers enhanced comfort and cooling, making it ideal for daily carry.",
+    "category": "Laptop Accessories",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 1990,
+    "discountPercentage": 5,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257382/samples/Personal/Laptop%20Accessories/LBA-1_cw4hrr.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257382/samples/Personal/Laptop%20Accessories/LBA-2_mmqxpp.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257383/samples/Personal/Laptop%20Accessories/LBA-3_j3askh.jpg"
+    ],
     "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "rating": 5,
+    "tags": ["ASUS", "Laptop Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a002d"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
+    "name": "UGREEN CM359 (80551)",
+    "brand": "UGREEN",
+    "shortDescription": "Enhance productivity and declutter your workspace with the UGREEN CM359 Black Laptop Stand, a sleek 5-in-1 docking station that elevates your laptop to an ergonomic height.",
+    "description": "Enhance your productivity and declutter your workspace with the UGREEN CM359 (80551) Black Laptop Stand. This sleek and versatile stand doubles as a 5-in-1 docking station, providing you with multiple connectivity options. Elevate your laptop to an ergonomic height, reducing strain on your neck and wrists. With its modern design and sturdy construction, the UGREEN CM359 is the perfect accessory for any home or office setup. Get ready to work smarter and streamline your workflow with this all-in-one laptop stand and docking station.",
     "category": "Office Furniture",
-    "count": 13,
+    "count": 15,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "price": 6000,
+    "discountPercentage": 13,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257384/samples/Personal/Laptop%20Accessories/ST-1_zqdxrl.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257384/samples/Personal/Laptop%20Accessories/St-2_zfv9mj.jpg",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257384/samples/Personal/Laptop%20Accessories/St-3_dkvxuo.jpg"
+    ],
+    "reviews": 10,
+    "rating": 5,
+    "tags": ["UGREEN", "Laptop Accessories"]
   },
   {
     "_id": {
