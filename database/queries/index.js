@@ -1,6 +1,7 @@
 import { billingAddressModel } from "@/models/billingAddress-model";
 import { productModel } from "@/models/product-model";
 import { shippingAddressModel } from "@/models/shippingAddress-model";
+import { topNewArrivalProductModel } from "@/models/topNewArrival-model";
 import { trendingProductModel } from "@/models/trendingProduct-model";
 
 import {
@@ -43,6 +44,12 @@ export async function getTrendingProducts() {
   const trending = await trendingProductModel.find().lean();
 
   return replaceMongoIdInArray(trending);
+}
+
+export async function getTopNewArrivedProducts() {
+  const newArrived = await topNewArrivalProductModel.find().lean();
+
+  return replaceMongoIdInArray(newArrived);
 }
 
 export async function getProductById(productId) {

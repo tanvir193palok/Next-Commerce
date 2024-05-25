@@ -1,0 +1,58 @@
+[
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe4a"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a0037"
+    },
+    "name": "JBL Xtreme 3 Portable Powerful Sound Speaker",
+    "price": 27700,
+    "discountPercentage": 10,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257370/samples/Personal/Music%20Accessories/speaker-1_pgpzkf.webp",
+    "rating": 5,
+    "reviews": 5
+  },
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe4b"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a0025"
+    },
+    "name": "ASUS ROG Ranger BP3703 Gaming Backpack",
+    "price": 26700,
+    "discountPercentage": 15,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257375/samples/Personal/Laptop%20Accessories/As-1_e7aewy.jpg",
+    "rating": 5,
+    "reviews": 10
+  },
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe4c"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a0022"
+    },
+    "name": "Executive Table Auden-230",
+    "price": 23700,
+    "discountPercentage": 17,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254824/samples/Personal/OfficeFurniture/Et-1_ajduhj.jpg",
+    "rating": 4.3,
+    "reviews": 20
+  },
+  {
+    "_id": {
+      "$oid": "66271aabc2cac047ced8fe4d"
+    },
+    "productId": {
+      "$oid": "6647d5432b3c0e26799a0021"
+    },
+    "name": "Director Table W-120",
+    "price": 97700,
+    "discountPercentage": 7,
+    "image": "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716254823/samples/Personal/OfficeFurniture/Dt-1_isrgl8.jpg",
+    "reviews": 15,
+    "rating": 4
+  }
+]
