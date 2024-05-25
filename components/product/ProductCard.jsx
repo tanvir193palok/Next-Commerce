@@ -25,7 +25,7 @@ const ProductCard = ({ product }) => {
         <ClickActions productId={product?.productId || product?.id} />
       </div>
       <div className="pt-4 pb-3 px-4">
-        <Link href="#">
+        <Link href={`/${product?.productId || product?.id}`}>
           <h4 className="uppercase h-14 font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
             {product?.name}
           </h4>

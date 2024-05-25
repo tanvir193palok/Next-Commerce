@@ -10,92 +10,92 @@ const Categories = () => {
       <div className="grid grid-cols-3 gap-3">
         <div className="relative rounded-sm overflow-hidden group">
           <Image
-            src="/assets/images/category/category-1.jpg"
-            width={500}
-            height={500}
-            alt="category 1"
-            className="w-full"
-          />
-          <Link
-            href="#"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
-          >
-            Bedroom
-          </Link>
-        </div>
-        <div className="relative rounded-sm overflow-hidden group">
-          <Image
-            src="/assets/images/category/category-2.jpg"
-            width={500}
-            height={500}
-            alt="category 1"
-            className="w-full"
-          />
-          <Link
-            href="#"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
-          >
-            Mattrass
-          </Link>
-        </div>
-        <div className="relative rounded-sm overflow-hidden group">
-          <Image
-            src="/assets/images/category/category-3.jpg"
-            width={500}
-            height={500}
-            alt="category 1"
-            className="w-full"
-          />
-          <Link
-            href="#"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
-          >
-            Outdoor
-          </Link>
-        </div>
-        <div className="relative rounded-sm overflow-hidden group">
-          <Image
-            src="/assets/images/category/category-4.jpg"
-            width={500}
-            height={500}
-            alt="category 1"
-            className="w-full"
-          />
-          <Link
-            href="#"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
-          >
-            Sofa
-          </Link>
-        </div>
-        <div className="relative rounded-sm overflow-hidden group">
-          <Image
-            src="/assets/images/category/category-5.jpg"
-            width={500}
-            height={500}
-            alt="category 1"
-            className="w-full"
-          />
-          <Link
-            href="#"
-            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
-          >
-            Living Room
-          </Link>
-        </div>
-        <div className="relative rounded-sm overflow-hidden group">
-          <Image
             src="/assets/images/category/category-6.jpg"
             width={500}
             height={500}
             alt="category 1"
-            className="w-full"
+            className="w-full h-full object-cover"
           />
           <Link
-            href="#"
+            href="/shop?category=Home Furniture"
             className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
           >
-            Kitchen
+            Home Furniture
+          </Link>
+        </div>
+        <div className="relative rounded-sm overflow-hidden group">
+          <Image
+            src="/assets/images/category/gym.jpg"
+            width={500}
+            height={500}
+            alt="category 1"
+            className="w-full h-full object-cover"
+          />
+          <Link
+            href="/shop?category=Gym Accessories"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+          >
+            Gym Accessories
+          </Link>
+        </div>
+        <div className="relative rounded-sm overflow-hidden group">
+          <Image
+            src="/assets/images/category/office.jpg"
+            width={500}
+            height={500}
+            alt="category 1"
+            className="w-full h-full object-cover"
+          />
+          <Link
+            href="/shop?category=Office Furniture"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+          >
+            Office Furniture
+          </Link>
+        </div>
+        <div className="relative rounded-sm overflow-hidden group">
+          <Image
+            src="/assets/images/category/music.jpg"
+            width={500}
+            height={500}
+            alt="category 1"
+            className="w-full h-full object-cover"
+          />
+          <Link
+            href="/shop?category=Music Accessories"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+          >
+            Music Accessories
+          </Link>
+        </div>
+        <div className="relative rounded-sm overflow-hidden group">
+          <Image
+            src="/assets/images/category/gadgets.jpg"
+            width={500}
+            height={500}
+            alt="category 1"
+            className="w-full h-full object-cover"
+          />
+          <Link
+            href="/shop?category=Laptop Accessories"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+          >
+            Laptop Accessories
+          </Link>
+        </div>
+        <div className="relative rounded-sm overflow-hidden group">
+          <Image
+            src="/assets/images/category/fashion.jpeg"
+            width={500}
+            height={500}
+            alt="category 1"
+            className="w-full h-full object-cover"
+          />
+          <Link
+            href="/shop?category=Fashion"
+            className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition"
+          >
+            Fashion
           </Link>
         </div>
       </div>
