@@ -63,7 +63,7 @@ const ProductInfo = ({ product }) => {
       </div>
 
       <ProductClickActions />
-      <SocialHandlers />
+      <SocialHandlers productId={product.id} />
     </div>
   );
 };

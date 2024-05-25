@@ -47,7 +47,7 @@ const Header = async ({ isAuth }) => {
             </div>
             <div className="flex items-center space-x-4">
               <Link
-                href="#"
+                href={isAuthenticated ? "/wishlist" : "/login"}
                 className="text-center text-gray-700 hover:text-primary transition relative"
               >
                 <div className="text-2xl">
@@ -59,7 +59,7 @@ const Header = async ({ isAuth }) => {
                 </div>
               </Link>
               <Link
-                href="#"
+                href={isAuthenticated ? "/checkout" : "/login"}
                 className="text-center text-gray-700 hover:text-primary transition relative"
               >
                 <div className="text-2xl">
