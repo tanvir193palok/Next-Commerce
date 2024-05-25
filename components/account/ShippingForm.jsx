@@ -1,9 +1,11 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const ShippingForm = ({ setIsEditing, user }) => {
   const [error, setError] = useState("");
+  const router = useRouter();
 
   async function onSubmit(e) {
     e.preventDefault();
@@ -31,6 +33,7 @@ const ShippingForm = ({ setIsEditing, user }) => {
       });
 
       response.status === 201 && setIsEditing(false);
+      router.refresh();
     } catch (err) {
       setError(err.message);
     }

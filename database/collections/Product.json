@@ -966,72 +966,218 @@
     "_id": {
       "$oid": "6647d5432b3c0e26799a002e"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
-    "count": 13,
+    "name": "Realme Buds Air 5 ANC Long Battery Life",
+    "brand": "Realme",
+    "shortDescription": "Discover the ultimate audio experience with Realme Buds Air 5. Enjoy wireless freedom, exceptional sound quality, and advanced features like noise cancellation. Perfect for music lovers and tech enthusiasts in Bangladesh.",
+    "description": "The Realme Buds Air 5 are the perfect blend of advanced technology and superior audio quality, designed to enhance your listening experience. Featuring Active Noise Cancellation (ANC) of up to 50dB, these earbuds effectively minimize background noise, allowing you to immerse yourself in your favorite music, podcasts, or calls without distraction. The 12.4mm dynamic bass driver ensures rich, deep sound with powerful bass, catering to audiophiles and casual listeners alike.",
+    "category": "Music Accessories",
+    "count": 43,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
+    "price": 4700,
+    "discountPercentage": 7,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256281/samples/Personal/Music%20Accessories/Ear-1_g6sve8.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256281/samples/Personal/Music%20Accessories/Ear-2_jbnp0m.webp"
+    ],
     "reviews": 20,
+    "colors": ["Blue", "White"],
     "rating": 4,
-    "tags": []
+    "tags": ["Realme", "Music Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a002f"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
-    "count": 13,
-    "sku": "ERQJI",
-    "price": 90700,
+    "name": "Alexa Echo Dot 5th Gen Speaker",
+    "brand": "Alexa",
+    "shortDescription": "The Amazon Echo Dot package includes the compact Echo Dot device, a power adapter, a micro USB cable, and a quick start guide for easy setup and seamless smart home integration.",
+    "description": "The Amazon Echo Dot package comprises essential components designed to enhance your smart home experience. Inside, you’ll find the compact Echo Dot device itself, crafted to seamlessly blend into any room. Accompanying it is a power adapter, ensuring uninterrupted operation, and a micro USB cable for convenient charging. Additionally, a quick start guide is included, guiding you through the setup process, enabling you to start enjoying the benefits of hands-free voice control and smart home integration in no time.",
+    "category": "Music Accessories",
+    "count": 23,
+    "sku": "EYhJI",
+    "price": 7700,
     "discountPercentage": 17,
-    "gallery": [],
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256281/samples/Personal/Music%20Accessories/Alexa-1_w6jj6f.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256281/samples/Personal/Music%20Accessories/Alexa-2_av4z6w.jpg"
+    ],
     "reviews": 20,
+    "colors": ["White", "Black"],
     "rating": 4,
-    "tags": []
+    "tags": ["Alexa", "Music Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0030"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
-    "count": 13,
+    "name": "Baseus Bowie MZ10 True Wireless Earphones ANC",
+    "brand": "Baseus",
+    "shortDescription": "Introducing the Baseus Bowie MZ10 True Wireless Earphones, crafted to deliver an unparalleled audio experience with a blend of advanced features and ergonomic design.",
+    "description": "Immerse yourself in your favorite tunes with the Baseus Bowie MZ10’s true wireless design, offering freedom from tangled wires and seamless connectivity with Bluetooth 5.2 technology. Whether you’re commuting, working out, or simply relaxing at home, these earphones deliver crisp highs, rich mids, and deep bass for a truly immersive listening experience. Key features include Active Noise Cancellation (ANC) for blocking out distractions, transparency mode for staying aware of your surroundings, touch controls for easy operation, dual microphones for clear calls, IPX5 water and sweat resistance for durability, and fast charging for convenience.",
+    "category": "Music Accessories",
+    "count": 23,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
-    "rating": 4,
-    "tags": []
+    "price": 3700,
+    "discountPercentage": 7,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256281/samples/Personal/Music%20Accessories/EP-1_elbscb.webp"
+    ],
+    "reviews": 25,
+    "rating": 4.5,
+    "colors": ["White", "Black", "Blue"],
+    "tags": ["Baseus", "Music Accessories"]
   },
   {
     "_id": {
       "$oid": "6647d5432b3c0e26799a0031"
     },
-    "name": "",
-    "brand": "Hatil",
-    "shortDescription": "",
-    "description": "",
-    "category": "Office Furniture",
+    "name": "JBL T460BT Wireless Bluetooth Pure Bass Sound",
+    "brand": "JBL",
+    "shortDescription": "Immerse yourself in rich, powerful sound with the JBL T460BT Wireless Headphones. Featuring JBL’s signature Pure Bass Sound and wireless Bluetooth connectivity, these headphones deliver up to 11 hours of continuous music playback.",
+    "description": "Immerse yourself in the world of premium audio with the JBL T460BT headphones. Designed for music enthusiasts and on-the-go listeners alike, these wireless headphones combine JBL’s renowned Pure Bass Sound with convenient features for an unparalleled listening experience. With JBL’s signature Pure Bass technology, these headphones deliver deep, powerful bass that brings your music to life. Whether you’re enjoying your favorite tracks, streaming podcasts, or immersing yourself in movies, the T460BT ensures every beat is rich and resonant. Built for comfort, the T460BT headphones feature an ergonomic on-ear design and cushioned ear cups for a snug fit during extended wear. The foldable design enhances portability, making them ideal for travel, commuting, or daily use. Key features include JBL Pure Bass Sound, wireless Bluetooth streaming, 11-hour battery life, and a comfortable, flat-foldable design.",
+    "category": "Music Accessories",
+    "count": 3,
+    "sku": "ERQJI",
+    "price": 5700,
+    "discountPercentage": 17,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256282/samples/Personal/Music%20Accessories/Headgear-1_zkqbci.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256282/samples/Personal/Music%20Accessories/Headgear-2_mp9qpp.webp"
+    ],
+    "reviews": 54,
+    "colors": ["Blue", "Black"],
+    "rating": 5,
+    "tags": ["Music Accessories", "JBL"]
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0032"
+    },
+    "name": "CMF by Nothing Neckband Pro ",
+    "brand": "Realme",
+    "shortDescription": "Experience the perfect harmony of style and performance with CMF by Nothing Neckband Pro Wireless Earphones. ",
+    "description": "Introducing the CMF by Nothing Neckband Pro Wireless Earphones, the perfect blend of style, comfort, and performance for music lovers in Bangladesh. Designed with a sleek and modern neckband style, these wireless earphones offer unparalleled convenience and freedom of movement, whether you’re commuting, working out, or simply relaxing at home. Equipped with advanced active noise cancellation technology, these earphones block out unwanted external sounds, allowing you to immerse yourself fully in your favorite music or podcasts. Say goodbye to distractions and hello to crystal-clear audio quality, no matter where you are.Compatible with a wide range of devices, including smartphones, tablets, and laptops,  these earphones offer versatile connectivity options. Pair effortlessly via Bluetooth and enjoy seamless audio streaming wherever you go.",
+    "category": "Music Accessories",
     "count": 13,
     "sku": "ERQJI",
-    "price": 90700,
-    "discountPercentage": 17,
-    "gallery": [],
-    "reviews": 20,
+    "price": 4700,
+    "discountPercentage": 5,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256282/samples/Personal/Music%20Accessories/neckband-1_yi8dkt.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256282/samples/Personal/Music%20Accessories/neckband-2_klxinr.webp"
+    ],
+    "reviews": 30,
+    "colors": ["Black"],
     "rating": 4,
-    "tags": []
+    "tags": ["Realme", "Music Accessories"]
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0033"
+    },
+    "name": "OnePlus Buds 3 ANC True Wireless Earbuds",
+    "brand": "OnePlus",
+    "shortDescription": "Experience immersive audio with the OnePlus Buds 3 ANC True Wireless Earbuds. Featuring Active Noise Cancellation technology, customizable touch controls, and long battery life, these earbuds offer a seamless listening experience. With a compact and lightweight design, they’re perfect for all-day wear.",
+    "description": "Introducing the OnePlus Buds 3 ANC True Wireless Earbuds, designed to deliver an immersive audio experience like never before. With advanced Active Noise Cancellation (ANC) technology, these earbuds block out unwanted external sounds, allowing you to focus solely on your music or calls. Whether you’re commuting, working out, or simply relaxing at home, enjoy crystal-clear audio with minimal distractions. Experience true wireless freedom with this earbuds. These earbuds offer seamless connectivity and a hassle-free listening experience, allowing you to enjoy your favorite music or podcasts without the hassle of tangled wires. Plus, with their compact and lightweight design, they’re comfortable to wear for extended periods, making them the perfect companion for all-day use.",
+    "category": "Music Accessories",
+    "count": 16,
+    "sku": "ERQJI",
+    "price": 10700,
+    "discountPercentage": 17,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256283/samples/Personal/Music%20Accessories/OP-1_ly4v4c.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256283/samples/Personal/Music%20Accessories/OP-2_nxvlz5.webp"
+    ],
+    "reviews": 40,
+    "colors": ["Black", "Blue"],
+    "rating": 5,
+    "tags": ["OnePlus", "Music Accessories"]
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0034"
+    },
+    "name": "JBL CLIP 5 PORTABLE SPEAKER",
+    "brand": "JBL",
+    "shortDescription": "Its long-lasting battery life, the Clip 5 keeps the music going for hours on end, ensuring that your outdoor adventures are always accompanied by your favorite tunes.",
+    "description": "Elevate your outdoor audio experience with the JBL Clip 5 Portable Speaker. Crafted for adventure, this compact yet mighty speaker packs a punch with its rugged durability and exceptional sound quality. Whether you’re hiking, biking, or lounging by the pool, the Clip 5 is your perfect companion, delivering crystal-clear audio that fills any space. Designed for ultimate portability, the Clip 5 features a sleek and lightweight design that easily clips onto your backpack, belt loop, or even your shower caddy. Its integrated carabiner clip provides convenient hands-free carrying, ensuring that your music goes wherever you do.",
+    "category": "Music Accessories",
+    "count": 13,
+    "sku": "ERQJI",
+    "price": 10000,
+    "discountPercentage": 17,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256283/samples/Personal/Music%20Accessories/s-1_ey6ctb.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256313/samples/Personal/Music%20Accessories/s-2_rsulfp.webp"
+    ],
+    "reviews": 10,
+    "colors": ["Purple", "Red"],
+    "rating": 5,
+    "tags": ["JBL", "Music Accessories"]
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0035"
+    },
+    "name": "SAMSUNG Galaxy Buds Live True Wireless Earbuds",
+    "brand": "SAMSUNG",
+    "shortDescription": "Experience immersive sound with the Samsung Galaxy Buds Live True Wireless Earbuds. Featuring active noise cancellation, touch controls, and a wireless charging case, these ergonomic earbuds offer convenience and comfort. ",
+    "description": "Elevate your audio experience with the Samsung Galaxy Buds Live True Wireless Earbuds. Engineered for exceptional sound quality and comfort, these earbuds offer a range of advanced features to enhance your listening enjoyment. Immerse yourself in your music like never before with active noise cancellation technology. Whether you’re in a busy office, commuting on public transport, or simply enjoying some quiet time at home, the Galaxy Buds Live block out external noise, allowing you to focus on your music or podcasts without distraction.",
+    "category": "Music Accessories",
+    "count": 23,
+    "sku": "ERQJI",
+    "price": 9700,
+    "discountPercentage": 17,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257369/samples/Personal/Music%20Accessories/Sam-1_yx7b0f.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257369/samples/Personal/Music%20Accessories/Sam-2_jvlbos.webp"
+    ],
+    "reviews": 40,
+    "colors": ["Golden", "White"],
+    "rating": 4.3,
+    "tags": ["SAMSUNG", "Music Accessories"]
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0036"
+    },
+    "name": "Plextone Mowi G5 PRO 40dB ANC",
+    "brand": "Plextone",
+    "shortDescription": "The Plextone Mowi G5 PRO headphones offer premium audio with advanced Active Noise Cancellation (ANC) that reduces ambient noise by up to 40dB. Designed for comfort with an adjustable headband and cushioned ear cups, these Bluetooth 5.0 headphones deliver rich, detailed sound.",
+    "description": "Immerse yourself in the world of premium audio with Plextone Mowi G5 PRO headphones. Crafted to elevate your listening experience, these headphones boast cutting-edge Active Noise Cancellation (ANC) technology, effectively reducing ambient noise by up to 40dB. Whether you’re commuting, working, or simply unwinding, enjoy uninterrupted music and clear audio. Designed with your comfort in mind, it features an ergonomic design, adjustable headband, and plush cushioned ear cups, ensuring a snug and enjoyable fit for extended wear. The foldable design adds convenience, making them easy to carry and store when not in use.",
+    "category": "Music Accessories",
+    "count": 18,
+    "sku": "ERQJI",
+    "price": 2700,
+    "discountPercentage": 17,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716256284/samples/Personal/Music%20Accessories/Play_px3csz.webp"
+    ],
+    "reviews": 45,
+    "colors": ["White"],
+    "rating": 4,
+    "tags": ["Music Accessories", "Plextone"]
+  },
+  {
+    "_id": {
+      "$oid": "6647d5432b3c0e26799a0037"
+    },
+    "name": "JBL Xtreme 3 Portable Powerful Sound Speaker",
+    "brand": "JBL",
+    "shortDescription": "The JBL Xtreme 3 Portable Speaker delivers powerful sound and durability in a compact design. With JBL Pro Sound, waterproof construction, and 15 hours of playtime, it’s perfect for indoor and outdoor use.",
+    "description": "The JBL Xtreme 3 Portable Speaker offers an exceptional blend of powerful sound, rugged durability, and convenient portability, making it the perfect companion for music enthusiasts on the move. With its signature JBL Pro Sound, this speaker delivers rich, room-filling audio that’s perfect for parties, outdoor gatherings, and indoor listening alike. Boasting two 2.75-inch woofers and two 20mm tweeters, it produces deep bass, clear highs, and detailed midrange, ensuring an immersive listening experience wherever you go.",
+    "category": "Music Accessories",
+    "count": 23,
+    "sku": "EJkJI",
+    "price": 27700,
+    "discountPercentage": 10,
+    "gallery": [
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257370/samples/Personal/Music%20Accessories/speaker-1_pgpzkf.webp",
+      "https://res.cloudinary.com/dllhc8cqz/image/upload/v1716257370/samples/Personal/Music%20Accessories/speaker-2_evge6i.webp"
+    ],
+    "reviews": 35,
+    "colors": ["Blue", "Black"],
+    "rating": 5,
+    "tags": ["Music Accessories", "JBL", "Cozy"]
   }
 ]
