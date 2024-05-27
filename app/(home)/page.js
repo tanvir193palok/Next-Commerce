@@ -12,8 +12,6 @@ export default async function Home() {
   const trendingProducts = await getTrendingProducts();
   const topNewArrivedProducts = await getTopNewArrivedProducts();
 
-  console.log(topNewArrivedProducts);
-
   return (
     <>
       <Banner />
@@ -24,7 +22,10 @@ export default async function Home() {
         type={"Trending Products"}
       />
       <Ads />
-      <CategorizedProduct products={topNewArrivedProducts} />
+      <CategorizedProduct
+        products={topNewArrivedProducts}
+        type={"Top New Arrivals"}
+      />
     </>
   );
 }

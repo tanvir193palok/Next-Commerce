@@ -21,6 +21,11 @@ const userSchema = new Schema({
     required: false,
     type: String,
   },
+  shippingIds: {
+    required: false,
+    type: [String],
+    default: [],
+  },
 });
 
 export const userModel =

@@ -3,8 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import StarRating from "./StarRating";
 import ClickActions from "./ClickActions";
+import { auth } from "@/auth";
 
-const ProductCard = ({ product }) => {
+const ProductCard = async ({ product }) => {
+  const session = await auth();
   const discountPrice = getDiscountPrice(
     product?.price,
     product?.discountPercentage
@@ -22,7 +24,10 @@ const ProductCard = ({ product }) => {
             className="w-full h-full object-cover"
           />
         </div>
-        <ClickActions productId={product?.productId || product?.id} />
+        <ClickActions
+          productId={product?.productId || product?.id}
+          user={session?.user}
+        />
       </div>
       <div className="pt-4 pb-3 px-4">
         <Link href={`/${product?.productId || product?.id}`}>

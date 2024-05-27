@@ -21,17 +21,14 @@ export async function getAllProducts(category, min, max) {
   }
 
   if (min && max) {
-    console.log(true);
     products = products.filter((product) => {
       return product.price > parseInt(min) && product.price < parseInt(max);
     });
   } else if (min) {
-    console.log(true);
     products = products.filter((product) => {
       return product.price > parseInt(min);
     });
   } else if (max) {
-    console.log(true);
     products = products.filter((product) => {
       return product.price < parseInt(max);
     });

@@ -13,23 +13,25 @@ import {
 } from "next-share";
 
 const SocialHandlers = ({ productId }) => {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
   return (
     <div className="flex gap-3 mt-4">
-      <div className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
-        <FacebookShareButton url={`http://localhost:3000/${productId}`}>
+      <FacebookShareButton url={`${baseUrl}/${productId}`}>
+        <div className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
           <FontAwesomeIcon icon={faFacebookF} size="1x" color="blue" />
-        </FacebookShareButton>
-      </div>
-      <div className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
-        <TwitterShareButton url={`http://localhost:3000/${productId}`}>
+        </div>
+      </FacebookShareButton>
+      <TwitterShareButton url={`${baseUrl}/${productId}`}>
+        <div className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
           <FontAwesomeIcon icon={faTwitter} color="blue" />
-        </TwitterShareButton>
-      </div>
-      <div className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
-        <WhatsappShareButton url={`http://localhost:3000/${productId}`}>
+        </div>
+      </TwitterShareButton>
+      <WhatsappShareButton url={`${baseUrl}/${productId}`}>
+        <div className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
           <FontAwesomeIcon icon={faWhatsapp} color="green" />
-        </WhatsappShareButton>
-      </div>
+        </div>
+      </WhatsappShareButton>
     </div>
   );
 };
