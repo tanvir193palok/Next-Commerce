@@ -3,8 +3,16 @@ import Image from "next/image";
 import Link from "next/link";
 import StarRating from "./StarRating";
 import ClickActions from "./ClickActions";
+import { getWishlist } from "@/database/queries";
+import { auth } from "@/auth";
 
 const ProductCard = async ({ product }) => {
+  const session = await auth();
+  let wishes = [];
+  if (session?.user) {
+    wishes = await getWishlist();
+  }
+
   const discountPrice = getDiscountPrice(
     product?.price,
     product?.discountPercentage
@@ -22,7 +30,11 @@ const ProductCard = async ({ product }) => {
             className="w-full h-full object-cover"
           />
         </div>
-        <ClickActions productId={product?.productId || product?.id} />
+        {/* wishlist and add to cart actions */}
+        <ClickActions
+          productId={product?.productId || product?.id}
+          wishList={wishes}
+        />
       </div>
       <div className="pt-4 pb-3 px-4">
         <Link href={`/${product?.productId || product?.id}`}>
@@ -43,6 +55,7 @@ const ProductCard = async ({ product }) => {
               <StarRating rating={Math.ceil(product.rating)} />
             )}
           </div>
+
           <div className="text-xs text-gray-500 ml-3">({product?.reviews})</div>
         </div>
       </div>

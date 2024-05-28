@@ -10,9 +10,14 @@ import { useState } from "react";
 const WishClickActions = ({ productId }) => {
   const { setWishCount } = useWishCount();
   const [error, setError] = useState("");
+  const [deletedItems, setDeletedItems] = useState(new Set());
   const router = useRouter();
 
   const deleteFromWishlist = async (productId) => {
+    if (deletedItems.has(productId)) return; // Prevent multiple calls
+
+    setError("");
+
     try {
       const response = await fetch("/api/auth/wishlist", {
         method: "DELETE",
@@ -22,14 +27,13 @@ const WishClickActions = ({ productId }) => {
         body: JSON.stringify({ productId }),
       });
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(errorText);
-      }
-
       if (response.status === 200) {
         setWishCount((prev) => prev - 1);
+        setDeletedItems((prev) => new Set(prev).add(productId));
         router.refresh();
+      } else {
+        const errorText = await response.text();
+        throw new Error(errorText);
       }
     } catch (err) {
       console.error(err);
@@ -47,7 +51,10 @@ const WishClickActions = ({ productId }) => {
       </Link>
       <button
         onClick={() => deleteFromWishlist(productId)}
-        className="text-gray-600 pr-6 cursor-pointer hover:text-primary"
+        className={`text-gray-600 pr-6 cursor-pointer hover:text-primary ${
+          deletedItems.has(productId) ? "cursor-not-allowed" : ""
+        }`}
+        disabled={deletedItems.has(productId)}
       >
         <FontAwesomeIcon icon={faTrash} />
       </button>
