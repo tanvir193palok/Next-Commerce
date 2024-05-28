@@ -3,6 +3,7 @@ import { productModel } from "@/models/product-model";
 import { shippingAddressModel } from "@/models/shippingAddress-model";
 import { topNewArrivalProductModel } from "@/models/topNewArrival-model";
 import { trendingProductModel } from "@/models/trendingProduct-model";
+import { userModel } from "@/models/user-model";
 
 import {
   replaceMongoIdInArray,
@@ -76,4 +77,11 @@ export async function getShippingInfo(email) {
   const info = shippingAddressModel.findOne({ email }).lean();
 
   return info;
+}
+
+export async function getWishlist(user) {
+  const email = user?.email;
+  const userInfo = await userModel.findOne({ email });
+
+  return userInfo.shippingIds;
 }

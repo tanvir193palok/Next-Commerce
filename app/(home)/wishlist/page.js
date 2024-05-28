@@ -1,13 +1,19 @@
+import { auth } from "@/auth";
 import Breadcrumb from "@/components/BreadCrumb";
 import WishCard from "@/components/wishlist/WishCard";
+import { getWishlist } from "@/database/queries";
 
-const WishlistPage = () => {
+const WishlistPage = async () => {
+  const session = await auth();
+  const wishes = await getWishlist(session?.user);
   return (
     <>
       <Breadcrumb text={"Profile"} />
       <div class="container gap-6 pt-4 pb-16">
         <div class="mx-auto space-y-4 max-w-6xl">
-          <WishCard />
+          {wishes.map((wish) => (
+            <WishCard key={wish} wish={wish} />
+          ))}
         </div>
       </div>
     </>

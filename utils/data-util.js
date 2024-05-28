@@ -1,3 +1,5 @@
+import { auth } from "@/auth";
+
 export const replaceMongoIdInArray = (array) => {
   const mappedArray = array
     .map((item) => {
@@ -32,4 +34,9 @@ export const getRefineCategory = (category) => {
     return "";
   }
   return decodedCategory;
+};
+
+export const getUserEmail = async () => {
+  const session = await auth();
+  return session?.user?.email;
 };

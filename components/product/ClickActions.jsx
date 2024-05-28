@@ -7,7 +7,6 @@ import { useState } from "react";
 
 const ClickActions = ({ productId, user }) => {
   const [error, setError] = useState("");
-  const [isProductAdded, setIsProductAdded] = useState(false);
 
   const addToWishlist = async (e) => {
     e.preventDefault();
@@ -22,16 +21,15 @@ const ClickActions = ({ productId, user }) => {
         body: JSON.stringify({ email: user.email, productId }),
       });
 
-      if (response.ok) {
-        setIsProductAdded(true); // Set state to indicate product is added
-        console.log("Product added to wishlist successfully!");
-      } else {
+      if (!response.ok) {
         const errorText = await response.text();
-        throw new Error(errorText || "Failed to add product to wishlist");
+        throw new Error(errorText);
       }
+
+      console.log("Product added to wishlist successfully!");
     } catch (err) {
       console.error(err);
-      setError(err.message || "An error occurred. Please try again.");
+      setError(err.message);
     }
   };
 
@@ -47,16 +45,13 @@ const ClickActions = ({ productId, user }) => {
       >
         <FontAwesomeIcon icon={faMagnifyingGlass} size="1x" />
       </Link>
-      {!isProductAdded && ( // Render button only if product is not added
-        <button
-          onClick={addToWishlist}
-          className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-          title="add to wishlist"
-          disabled={isProductAdded} // Disable the button if product is already added
-        >
-          <FontAwesomeIcon icon={faHeart} size="1x" />
-        </button>
-      )}
+      <button
+        onClick={addToWishlist}
+        className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+        title="add to wishlist"
+      >
+        <FontAwesomeIcon icon={faHeart} size="1x" />
+      </button>
       {error && <div className="text-red-500 mt-2">{error}</div>}
     </div>
   );
