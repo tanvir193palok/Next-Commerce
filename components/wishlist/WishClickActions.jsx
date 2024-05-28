@@ -1,5 +1,6 @@
 "use client";
 
+import { useWishCount } from "@/app/(home)/hooks/useWishCount";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
@@ -7,6 +8,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const WishClickActions = ({ productId }) => {
+  const { setWishCount } = useWishCount();
   const [error, setError] = useState("");
   const router = useRouter();
 
@@ -24,7 +26,11 @@ const WishClickActions = ({ productId }) => {
         const errorText = await response.text();
         throw new Error(errorText);
       }
-      response.status === 200 && router.refresh();
+
+      if (response.status === 200) {
+        setWishCount((prev) => prev - 1);
+        router.refresh();
+      }
     } catch (err) {
       console.error(err);
       setError(err.message);

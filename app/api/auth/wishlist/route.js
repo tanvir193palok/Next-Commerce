@@ -4,8 +4,9 @@ import { userModel } from "@/models/user-model";
 import { getUserEmail } from "@/utils/data-util";
 
 export const POST = async (request) => {
+  const email = await getUserEmail();
   try {
-    const { email, productId } = await request.json();
+    const { productId } = await request.json();
     await dbConnect();
 
     const user = await userModel.findOne({ email });

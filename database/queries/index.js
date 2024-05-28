@@ -6,6 +6,7 @@ import { trendingProductModel } from "@/models/trendingProduct-model";
 import { userModel } from "@/models/user-model";
 
 import {
+  getUserEmail,
   replaceMongoIdInArray,
   replaceMongoIdInObject,
 } from "@/utils/data-util";
@@ -79,8 +80,8 @@ export async function getShippingInfo(email) {
   return info;
 }
 
-export async function getWishlist(user) {
-  const email = user?.email;
+export async function getWishlist() {
+  const email = await getUserEmail();
   const userInfo = await userModel.findOne({ email });
 
   return userInfo.shippingIds;

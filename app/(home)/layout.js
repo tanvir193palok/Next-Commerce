@@ -8,6 +8,9 @@ import Footer from "@/components/Footer";
 import CopyrightText from "@/components/CopyrightText";
 import { dbConnect } from "@/service/mongo";
 import Navbar from "@/components/nav/Navbar";
+import WishProvider from "./providers/WishProvider";
+import { getWishlist } from "@/database/queries";
+import { auth } from "@/auth";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,15 +21,24 @@ export const metadata = {
 
 export default async function RootLayout({ children }) {
   await dbConnect();
+  const session = await auth();
+
+  let wishCount = 0;
+  if (session?.user) {
+    const wishes = await getWishlist();
+    wishCount = wishes.length;
+  }
 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header isAuth={false} />
-        <Navbar />
-        {children}
-        <Footer />
-        <CopyrightText />
+        <WishProvider initialWishCount={wishCount}>
+          <Header isAuth={false} />
+          <Navbar />
+          {children}
+          <Footer />
+          <CopyrightText />
+        </WishProvider>
       </body>
     </html>
   );

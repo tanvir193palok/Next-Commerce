@@ -1,11 +1,9 @@
-import { auth } from "@/auth";
 import Breadcrumb from "@/components/BreadCrumb";
 import WishCard from "@/components/wishlist/WishCard";
 import { getWishlist } from "@/database/queries";
 
 const WishlistPage = async () => {
-  const session = await auth();
-  const wishes = await getWishlist(session?.user);
+  const wishes = await getWishlist();
   return (
     <>
       <Breadcrumb text={"Profile"} />

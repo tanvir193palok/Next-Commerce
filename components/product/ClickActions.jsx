@@ -4,8 +4,10 @@ import Link from "next/link";
 import { faHeart, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
+import { useWishCount } from "@/app/(home)/hooks/useWishCount";
 
-const ClickActions = ({ productId, user }) => {
+const ClickActions = ({ productId }) => {
+  const { setWishCount } = useWishCount();
   const [error, setError] = useState("");
 
   const addToWishlist = async (e) => {
@@ -18,7 +20,7 @@ const ClickActions = ({ productId, user }) => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email: user.email, productId }),
+        body: JSON.stringify({ productId }),
       });
 
       if (!response.ok) {
@@ -26,7 +28,9 @@ const ClickActions = ({ productId, user }) => {
         throw new Error(errorText);
       }
 
-      console.log("Product added to wishlist successfully!");
+      if (response.status === 200) {
+        setWishCount((prev) => prev + 1);
+      }
     } catch (err) {
       console.error(err);
       setError(err.message);
