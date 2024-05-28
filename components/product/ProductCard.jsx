@@ -34,6 +34,7 @@ const ProductCard = async ({ product }) => {
         <ClickActions
           productId={product?.productId || product?.id}
           wishList={wishes}
+          user={session?.user}
         />
       </div>
       <div className="pt-4 pb-3 px-4">

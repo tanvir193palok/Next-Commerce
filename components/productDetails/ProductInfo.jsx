@@ -2,8 +2,16 @@ import StarRating from "../product/StarRating";
 import { getDiscountPrice } from "@/utils/data-util";
 import SocialHandlers from "./SocialHandlers";
 import ProductClickActions from "./ProductClickActions";
+import { getWishlist } from "@/database/queries";
+import { auth } from "@/auth";
 
-const ProductInfo = ({ product }) => {
+const ProductInfo = async ({ product }) => {
+  const session = await auth();
+  let wishes = [];
+  if (session?.user) {
+    wishes = await getWishlist();
+  }
+
   return (
     <div>
       <h2 className="text-3xl font-medium uppercase mb-2">{product?.name}</h2>
@@ -62,7 +70,13 @@ const ProductInfo = ({ product }) => {
         </div>
       </div>
 
-      <ProductClickActions />
+      {/* Product add to wishlist and card */}
+      
+      <ProductClickActions
+        productId={product?.productId || product?.id}
+        wishList={wishes}
+        user={session?.user}
+      />
       <SocialHandlers productId={product.id} />
     </div>
   );

@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useWishCount } from "@/app/(home)/hooks/useWishCount";
 import { useRouter } from "next/navigation";
 
-const ClickActions = ({ productId, wishList }) => {
+const ClickActions = ({ productId, wishList, user }) => {
   const { setWishCount } = useWishCount();
   const router = useRouter();
   const [error, setError] = useState("");
@@ -43,6 +43,17 @@ const ClickActions = ({ productId, wishList }) => {
     }
   };
 
+  const handleWishlistClick = (e) => {
+    e.preventDefault();
+    if (!user) {
+      // Store product ID and redirect to login
+      localStorage.setItem("wishlistProductId", productId);
+      router.push("/login");
+    } else {
+      addToWishlist(e);
+    }
+  };
+
   return (
     <>
       {error && <div className="text-red-500 mt-2">{error}</div>}
@@ -67,7 +78,7 @@ const ClickActions = ({ productId, wishList }) => {
           </button>
         ) : (
           <button
-            onClick={addToWishlist}
+            onClick={handleWishlistClick}
             disabled={isAdding}
             className={`text-white text-lg w-9 h-8 rounded-full ${
               isAdding

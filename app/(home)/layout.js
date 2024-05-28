@@ -11,6 +11,7 @@ import Navbar from "@/components/nav/Navbar";
 import WishProvider from "./providers/WishProvider";
 import { getWishlist } from "@/database/queries";
 import { auth } from "@/auth";
+import AddWishedProductOnLogin from "@/components/AddWishedProductOnLogin";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default async function RootLayout({ children }) {
           <Header isAuth={false} />
           <Navbar />
           {children}
+          <AddWishedProductOnLogin user={session?.user} />
           <Footer />
           <CopyrightText />
         </WishProvider>
