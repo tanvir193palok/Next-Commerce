@@ -86,3 +86,10 @@ export async function getWishlist() {
 
   return userInfo.shippingIds;
 }
+
+export async function getProductsInCart() {
+  const email = await getUserEmail();
+  const userInfo = await userModel.findOne({ email });
+
+  return userInfo.productsInCart;
+}

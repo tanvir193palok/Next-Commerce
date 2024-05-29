@@ -3,7 +3,6 @@
 import { useWishCount } from "@/app/(home)/hooks/useWishCount";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState, useCallback } from "react";
 
@@ -47,12 +46,6 @@ const WishClickActions = ({ productId }) => {
 
   return (
     <>
-      <Link
-        href="/checkout"
-        className="px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
-      >
-        add to cart
-      </Link>
       <button
         onClick={deleteFromWishlist}
         className={`text-gray-600 pr-6 cursor-pointer hover:text-primary ${

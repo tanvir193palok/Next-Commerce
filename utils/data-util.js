@@ -19,11 +19,11 @@ export const replaceMongoIdInObject = (obj) => {
 };
 
 //Calculation of discount price
-export async function getDiscountPrice(price, discountPercentage) {
+export function getDiscountPrice(price, discountPercentage) {
   const discountAmount = (price * discountPercentage) / 100;
   const discountedPrice = price - discountAmount;
 
-  return discountedPrice.toFixed(2);
+  return parseFloat(discountedPrice.toFixed(2));
 }
 
 //function to handle string undefined in category param
@@ -40,3 +40,12 @@ export const getUserEmail = async () => {
   const session = await auth();
   return session?.user?.email;
 };
+
+//function to calculate total price of all products in cart
+export function getTotalPrice(products) {
+  const totalPrice = products.reduce((acc, product) => {
+    return acc + product.price * product.quantity;
+  }, 0);
+
+  return totalPrice;
+}

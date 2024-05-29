@@ -1,9 +1,10 @@
 import StarRating from "../product/StarRating";
 import { getDiscountPrice } from "@/utils/data-util";
 import SocialHandlers from "./SocialHandlers";
-import ProductClickActions from "./ProductClickActions";
+import ProductClickActions from "./WishAction";
 import { getWishlist } from "@/database/queries";
 import { auth } from "@/auth";
+import AddCartActions from "./ProductClickActions";
 
 const ProductInfo = async ({ product }) => {
   const session = await auth();
@@ -55,28 +56,14 @@ const ProductInfo = async ({ product }) => {
 
       <p className="mt-4 text-gray-600">{product?.shortDescription}</p>
 
-      <div className="mt-4">
-        <h3 className="text-sm text-gray-800 uppercase mb-1">Quantity</h3>
-        <div className="flex border border-gray-300 text-gray-600 divide-x divide-gray-300 w-max">
-          <div className="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none">
-            -
-          </div>
-          <div className="h-8 w-8 text-base flex items-center justify-center">
-            4
-          </div>
-          <div className="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none">
-            +
-          </div>
-        </div>
-      </div>
-
-      {/* Product add to wishlist and card */}
-      
-      <ProductClickActions
+      {/* Handling add to wishlist and cart */}
+      <AddCartActions
         productId={product?.productId || product?.id}
         wishList={wishes}
         user={session?.user}
       />
+
+      {/* Handling social share*/}
       <SocialHandlers productId={product.id} />
     </div>
   );

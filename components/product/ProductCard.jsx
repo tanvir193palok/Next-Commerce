@@ -5,6 +5,7 @@ import StarRating from "./StarRating";
 import ClickActions from "./ClickActions";
 import { getWishlist } from "@/database/queries";
 import { auth } from "@/auth";
+import AddToCart from "./AddToCart";
 
 const ProductCard = async ({ product }) => {
   const session = await auth();
@@ -60,12 +61,11 @@ const ProductCard = async ({ product }) => {
           <div className="text-xs text-gray-500 ml-3">({product?.reviews})</div>
         </div>
       </div>
-      <Link
-        href="#"
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
-      >
-        Add to cart
-      </Link>
+      <AddToCart
+        productId={product?.productId || product?.id}
+        wishList={wishes}
+        user={session?.user}
+      />
     </div>
   );
 };

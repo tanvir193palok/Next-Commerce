@@ -26,6 +26,29 @@ const userSchema = new Schema({
     type: [String],
     default: [],
   },
+  productsInCart: {
+    type: [
+      {
+        productId: {
+          type: String,
+          required: true,
+        },
+        name: {
+          type: String,
+          required: true,
+        },
+        quantity: {
+          type: Number,
+          required: true,
+        },
+        price: {
+          type: Number,
+          required: true,
+        },
+      },
+    ],
+    default: [],
+  },
 });
 
 export const userModel =
