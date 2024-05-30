@@ -1,9 +1,12 @@
 "use client";
 
+import { useCartProductCount } from "@/app/(home)/hooks/useCartProductCount";
 import { useState } from "react";
 
 const AddToCart = ({ productId, wishList, user }) => {
   const [error, setError] = useState("");
+  const { setProductCount } = useCartProductCount();
+
   const addProductToCart = async () => {
     try {
       const quantity = 1;
@@ -16,6 +19,7 @@ const AddToCart = ({ productId, wishList, user }) => {
       });
 
       if (response.status === 200) {
+        setProductCount((prev) => prev + 1);
         console.log("Product added to cart");
       } else {
         const errorText = await response.text();

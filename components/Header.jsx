@@ -2,6 +2,9 @@ import { auth } from "@/auth";
 import Image from "next/image";
 import Link from "next/link";
 import WishCount from "./nav/WishCount";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+import ProductInCartCount from "./nav/ProductInCartCount";
 
 const Header = async ({ isAuth }) => {
   const session = await auth();
@@ -65,16 +68,14 @@ const Header = async ({ isAuth }) => {
                   <i className="fa-solid fa-bag-shopping"></i>
                 </div>
                 <div className="text-xs leading-3">Cart</div>
-                <div className="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">
-                  2
-                </div>
+                <ProductInCartCount />
               </Link>
               <Link
                 href={isAuthenticated ? "/account" : "/login"}
-                className="text-center text-gray-700 hover:text-primary transition relative"
+                className="text-center text-gray-700 hover:text-primary transition relative md:pl-6"
               >
                 <div className="text-2xl">
-                  <i className="fa-regular fa-user"></i>
+                  <FontAwesomeIcon icon={faUser} size="1x" />
                 </div>
                 <div className="text-xs leading-3">Account</div>
               </Link>

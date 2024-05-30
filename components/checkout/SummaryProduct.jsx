@@ -4,7 +4,7 @@ const SummaryProduct = ({ product }) => {
   return (
     <div className="flex flex-col">
       <div>
-        <h5 className="text-gray-800 tracking-wide font-medium w-full">
+        <h5 className="text-gray-800 font-medium w-full">
           {product.name}
         </h5>
       </div>
@@ -13,7 +13,7 @@ const SummaryProduct = ({ product }) => {
           Price Per Product: ${product?.price}
         </p>
         <p className="text-gray-600">x{product?.quantity}</p>
-        <p className="text-gray-800 font-medium">$ {totalprice.toFixed(2)}</p>
+        <p className="text-gray-800 font-medium">$ {totalprice}</p>
       </div>
     </div>
   );

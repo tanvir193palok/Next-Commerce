@@ -4,9 +4,11 @@ import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import WishAction from "./WishAction";
+import { useCartProductCount } from "@/app/(home)/hooks/useCartProductCount";
 
 const ProductClickActions = ({ productId, wishList, user }) => {
   const [quantity, setQuantity] = useState(1);
+  const { setProductCount } = useCartProductCount();
 
   //Quantity updater function with atleast quantity to be 1
   const updateQuantity = (amount) => {
@@ -24,6 +26,7 @@ const ProductClickActions = ({ productId, wishList, user }) => {
       });
 
       if (response.status === 200) {
+        setProductCount((prev) => prev + 1);
         console.log("Product added to cart");
         setQuantity(1);
       } else {
