@@ -1,6 +1,7 @@
 
 
-const page = () => {
+const page = async () => {
+  
   return (
     <div>
       Checkout has been succefull

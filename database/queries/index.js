@@ -1,4 +1,5 @@
 import { billingAddressModel } from "@/models/billingAddress-model";
+import { invoiceModel } from "@/models/invoice-model";
 import { productModel } from "@/models/product-model";
 import { shippingAddressModel } from "@/models/shippingAddress-model";
 import { topNewArrivalProductModel } from "@/models/topNewArrival-model";
@@ -101,5 +102,21 @@ export async function deleteProductsInCart() {
   if (userInfo) {
     userInfo.productsInCart = [];
     await userInfo.save();
+  }
+}
+
+export async function getInvoiceByEmail() {
+  const email = await getUserEmail();
+  const invoice = await invoiceModel.findOne({ email });
+
+  return invoice;
+}
+
+export async function deleteInvoiceByEmail() {
+  const email = await getUserEmail();
+  const invoice = await invoiceModel.findOne({ email });
+
+  if (invoice) {
+    await invoiceModel.deleteOne({ email });
   }
 }
