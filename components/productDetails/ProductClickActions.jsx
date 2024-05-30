@@ -5,10 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import WishAction from "./WishAction";
 import { useCartProductCount } from "@/app/(home)/hooks/useCartProductCount";
+import { useRouter } from "next/navigation";
 
 const ProductClickActions = ({ productId, wishList, user }) => {
   const [quantity, setQuantity] = useState(1);
   const { setProductCount } = useCartProductCount();
+  const router = useRouter();
 
   //Quantity updater function with atleast quantity to be 1
   const updateQuantity = (amount) => {
@@ -29,6 +31,7 @@ const ProductClickActions = ({ productId, wishList, user }) => {
         setProductCount((prev) => prev + 1);
         console.log("Product added to cart");
         setQuantity(1);
+        router.refresh();
       } else {
         const errorText = await response.text();
         throw new Error(errorText);

@@ -34,31 +34,6 @@ const CheckoutSummary = async () => {
         <p className="font-semibold">Total</p>
         <p>${totalPrice}</p>
       </div>
-
-      <div className="flex items-center mb-4 mt-2">
-        <input
-          type="checkbox"
-          name="aggrement"
-          id="aggrement"
-          className="text-primary focus:ring-0 rounded-sm cursor-pointer w-3 h-3"
-        />
-        <label
-          for="aggrement"
-          className="text-gray-600 ml-3 cursor-pointer text-sm"
-        >
-          I agree to the{" "}
-          <Link href="#" className="text-primary">
-            terms & conditions
-          </Link>
-        </label>
-      </div>
-
-      <Link
-        href="#"
-        className="block w-full py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition font-medium"
-      >
-        Place order
-      </Link>
     </div>
   );
 };

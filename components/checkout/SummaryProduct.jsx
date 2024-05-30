@@ -4,9 +4,7 @@ const SummaryProduct = ({ product }) => {
   return (
     <div className="flex flex-col">
       <div>
-        <h5 className="text-gray-800 font-medium w-full">
-          {product.name}
-        </h5>
+        <h5 className="text-gray-800 font-medium w-full">{product.name}</h5>
       </div>
       <div className="flex justify-between mt-2">
         <p className="text-sm text-gray-600">

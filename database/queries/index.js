@@ -93,3 +93,13 @@ export async function getProductsInCart() {
 
   return userInfo.productsInCart;
 }
+
+export async function deleteProductsInCart() {
+  const email = await getUserEmail();
+  const userInfo = await userModel.findOne({ email });
+
+  if (userInfo) {
+    userInfo.productsInCart = [];
+    await userInfo.save();
+  }
+}

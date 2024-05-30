@@ -1,11 +1,13 @@
 "use client";
 
 import { useCartProductCount } from "@/app/(home)/hooks/useCartProductCount";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 const AddToCart = ({ productId, wishList, user }) => {
   const [error, setError] = useState("");
   const { setProductCount } = useCartProductCount();
+  const router = useRouter();
 
   const addProductToCart = async () => {
     try {
@@ -20,6 +22,7 @@ const AddToCart = ({ productId, wishList, user }) => {
 
       if (response.status === 200) {
         setProductCount((prev) => prev + 1);
+        router.refresh();
         console.log("Product added to cart");
       } else {
         const errorText = await response.text();
