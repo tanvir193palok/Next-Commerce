@@ -13,6 +13,7 @@ import { getProductsInCart, getWishlist } from "@/database/queries";
 import { auth } from "@/auth";
 import AddWishedProductOnLogin from "@/components/AddWishedProductOnLogin";
 import CartProvider from "./providers/CartProvider";
+import AddProductInCartOnLogin from "@/components/AddProductInCartOnLogin";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +43,7 @@ export default async function RootLayout({ children }) {
             <Header isAuth={false} />
             <Navbar />
             {children}
+            <AddProductInCartOnLogin user={session?.user} />
             <AddWishedProductOnLogin user={session?.user} />
           </CartProvider>
         </WishProvider>

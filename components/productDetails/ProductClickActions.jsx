@@ -12,12 +12,12 @@ const ProductClickActions = ({ productId, wishList, user }) => {
   const { setProductCount } = useCartProductCount();
   const router = useRouter();
 
-  //Quantity updater function with atleast quantity to be 1
   const updateQuantity = (amount) => {
     setQuantity((prevQuantity) => Math.max(1, prevQuantity + amount));
   };
 
-  const addProductToCart = async () => {
+  const addProductToCart = async (e) => {
+    e.preventDefault();
     try {
       const response = await fetch("/api/auth/cart", {
         method: "POST",
@@ -38,6 +38,18 @@ const ProductClickActions = ({ productId, wishList, user }) => {
       }
     } catch (err) {
       console.error("Error adding product to cart:", err);
+    }
+  };
+
+  const handleToAddCart = (e) => {
+    e.preventDefault();
+
+    if (!user) {
+      localStorage.setItem("cartListProductId", productId);
+      localStorage.setItem("cartProductQuantity", quantity);
+      router.push("/login");
+    } else {
+      addProductToCart(e);
     }
   };
 
@@ -66,7 +78,7 @@ const ProductClickActions = ({ productId, wishList, user }) => {
 
       <div className="mt-6 flex gap-3 border-b border-gray-200 pb-5 pt-5">
         <button
-          onClick={addProductToCart}
+          onClick={handleToAddCart}
           className="bg-primary border border-primary text-white px-8 py-2 font-medium rounded uppercase flex items-center gap-2 hover:bg-transparent hover:text-primary transition"
         >
           <FontAwesomeIcon icon={faBagShopping} size="1x" /> add to cart

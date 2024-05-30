@@ -4,12 +4,14 @@ import { useCartProductCount } from "@/app/(home)/hooks/useCartProductCount";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-const AddToCart = ({ productId, wishList, user }) => {
+const AddToCart = ({ productId, user }) => {
   const [error, setError] = useState("");
   const { setProductCount } = useCartProductCount();
   const router = useRouter();
 
-  const addProductToCart = async () => {
+  const addProductToCart = async (e) => {
+    e.preventDefault();
+
     try {
       const quantity = 1;
       const response = await fetch("/api/auth/cart", {
@@ -33,11 +35,23 @@ const AddToCart = ({ productId, wishList, user }) => {
       setError(err.message);
     }
   };
+
+  const handleToAddCart = (e) => {
+    e.preventDefault();
+
+    if (!user) {
+      localStorage.setItem("cartListProductId", productId);
+      router.push("/login");
+    } else {
+      addProductToCart(e);
+    }
+  };
+
   return (
     <>
       {error && <div>{error}</div>}
       <button
-        onClick={addProductToCart}
+        onClick={handleToAddCart}
         className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
       >
         Add to cart
