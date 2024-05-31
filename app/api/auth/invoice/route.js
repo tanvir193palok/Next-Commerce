@@ -1,5 +1,9 @@
 import { auth } from "@/auth";
-import { deleteProductsInCart, getProductsInCart } from "@/database/queries";
+import {
+  deleteProductsInCart,
+  getInvoiceByEmail,
+  getProductsInCart,
+} from "@/database/queries";
 import { invoiceModel } from "@/models/invoice-model";
 import { dbConnect } from "@/service/mongo";
 import { getTotalPrice } from "@/utils/data-util";
@@ -34,5 +38,24 @@ export const POST = async (request) => {
     }
   } catch (err) {
     return NextResponse.json(err.message, { status: 500 });
+  }
+};
+
+export const GET = async () => {
+  try {
+    const invoice = await getInvoiceByEmail();
+    return new Response(JSON.stringify({ invoice }), {
+      status: 200,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  } catch (err) {
+    return new Response(JSON.stringify({ error: err.message }), {
+      status: 500,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
   }
 };
