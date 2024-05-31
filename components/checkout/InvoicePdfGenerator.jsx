@@ -1,5 +1,5 @@
 import { PDFDownloadLink, Text } from "@react-pdf/renderer";
-import PDFDocument from "./PDFDocument";
+import PDFDocument from "./PdfDocument";
 
 const styles = {
   downloadText: {

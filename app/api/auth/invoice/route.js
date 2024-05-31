@@ -1,5 +1,6 @@
 import { auth } from "@/auth";
 import {
+  deleteInvoiceByEmail,
   deleteProductsInCart,
   getInvoiceByEmail,
   getProductsInCart,
@@ -10,12 +11,13 @@ import { getTotalPrice } from "@/utils/data-util";
 import { NextResponse } from "next/server";
 
 export const POST = async (request) => {
+  await dbConnect();
+  await deleteInvoiceByEmail();
+  
   const { name, region, address, city, phone, email } = await request.json();
   const session = await auth();
   const products = await getProductsInCart();
   const totalPrice = getTotalPrice(products);
-
-  await dbConnect();
   const invoice = {
     name,
     region,

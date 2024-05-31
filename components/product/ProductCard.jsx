@@ -65,6 +65,7 @@ const ProductCard = async ({ product }) => {
         productId={product?.productId || product?.id}
         wishList={wishes}
         user={session?.user}
+        productCount={product?.count}
       />
     </div>
   );

@@ -81,6 +81,10 @@ export async function getShippingInfo(email) {
   return info;
 }
 
+export const updateProductQuantity = async (productId, count) => {
+  await productModel.findByIdAndUpdate(productId, { count });
+};
+
 export async function getWishlist() {
   const email = await getUserEmail();
   const userInfo = await userModel.findOne({ email });

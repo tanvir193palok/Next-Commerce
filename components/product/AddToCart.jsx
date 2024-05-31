@@ -4,7 +4,7 @@ import { useCartProductCount } from "@/app/(home)/hooks/useCartProductCount";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-const AddToCart = ({ productId, user }) => {
+const AddToCart = ({ productId, user, productCount }) => {
   const [error, setError] = useState("");
   const { setProductCount } = useCartProductCount();
   const router = useRouter();
@@ -52,9 +52,14 @@ const AddToCart = ({ productId, user }) => {
       {error && <div>{error}</div>}
       <button
         onClick={handleToAddCart}
-        className="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition"
+        className={`block w-full py-1 text-center text-white border rounded-b hover:bg-transparent hover:text-primary transition ${
+          productCount === 0
+            ? "bg-gray-400 cursor-not-allowed"
+            : "bg-primary border-primary"
+        }`}
+        disabled={productCount === 0}
       >
-        Add to cart
+        {productCount === 0 ? "Out Of Stock" : "Add to cart"}
       </button>
     </>
   );
