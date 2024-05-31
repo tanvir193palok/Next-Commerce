@@ -24,26 +24,8 @@ const PDFDocument = ({ invoice }) => (
     <Page size="A4" style={styles.page}>
       <View style={styles.section}>
         <View style={styles.field}>
-          <Text style={styles.label}>ID:</Text>
-          <Text>{invoice._id.toString()}</Text>
-        </View>
-        <View style={styles.field}>
           <Text style={styles.label}>Name:</Text>
           <Text>{invoice.name}</Text>
-        </View>
-        <View style={styles.field}>
-          <Text style={styles.label}>Products:</Text>
-          {invoice.products.map((product, index) => (
-            <View key={index}>
-              <Text>- Name: {product.name}</Text>
-              <Text> Quantity: {product.quantity}</Text>
-              <Text> Price: {product.price}</Text>
-            </View>
-          ))}
-        </View>
-        <View style={styles.field}>
-          <Text style={styles.label}>Total Price:</Text>
-          <Text>{invoice.totalPrice}</Text>
         </View>
         <View style={styles.field}>
           <Text style={styles.label}>Region:</Text>
@@ -68,6 +50,20 @@ const PDFDocument = ({ invoice }) => (
         <View style={styles.field}>
           <Text style={styles.label}>Created At:</Text>
           <Text>{invoice.createdAt}</Text>
+        </View>
+        <View style={styles.field}>
+          <Text style={styles.label}>Products:</Text>
+          {invoice.products.map((product, index) => (
+            <View key={index}>
+              <Text>- Name: {product.name}</Text>
+              <Text> Quantity: {product.quantity}</Text>
+              <Text> Price: {product.price}</Text>
+            </View>
+          ))}
+        </View>
+        <View style={styles.field}>
+          <Text style={styles.label}>Total Price:</Text>
+          <Text>{invoice.totalPrice}</Text>
         </View>
       </View>
     </Page>
