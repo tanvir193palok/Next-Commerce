@@ -1,14 +1,24 @@
-import { PDFDownloadLink } from "@react-pdf/renderer";
+import { PDFDownloadLink, Text } from "@react-pdf/renderer";
 import PDFDocument from "./PDFDocument";
+
+const styles = {
+  downloadText: {
+    color: "blue",
+    textDecoration: "underline",
+    fontSize: 16,
+  },
+};
 
 const InvoicePdfGenerator = ({ invoice }) => (
   <PDFDownloadLink
     document={<PDFDocument invoice={invoice} />}
     fileName="invoice.pdf"
   >
-    {({ blob, url, loading, error }) =>
-      loading ? "Loading document..." : "Download PDF"
-    }
+    {({ loading }) => (
+      <Text style={styles.downloadText}>
+        {loading ? "Loading document..." : "Download PDF"}
+      </Text>
+    )}
   </PDFDownloadLink>
 );
 

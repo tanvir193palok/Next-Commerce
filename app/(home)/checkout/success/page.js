@@ -23,9 +23,13 @@ const SuccessPage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Checkout has been successful</h1>
-      {invoice && <InvoicePdfGenerator invoice={invoice} />}
+    <div className="flex justify-center py-20">
+      <div className="flex flex-col">
+        <h1 className="text-3xl font-bold pb-10">
+          Checkout has been successfull
+        </h1>
+        <div className="flex justify-center font-semibold">{invoice && <InvoicePdfGenerator invoice={invoice} />}</div>
+      </div>
     </div>
   );
 };
