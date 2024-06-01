@@ -1,6 +1,8 @@
 "use client";
 
 import { useCartProductCount } from "@/app/(home)/hooks/useCartProductCount";
+import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -59,6 +61,7 @@ const AddToCart = ({ productId, user, productCount }) => {
         }`}
         disabled={productCount === 0}
       >
+        <span className="pr-2"><FontAwesomeIcon icon={faBagShopping} /></span>
         {productCount === 0 ? "Out Of Stock" : "Add to cart"}
       </button>
     </>

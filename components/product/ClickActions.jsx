@@ -71,7 +71,7 @@ const ClickActions = ({ productId, wishList, user }) => {
         {isWished ? (
           <button
             disabled
-            className="text-white text-lg w-9 h-8 rounded-full bg-gray-500 flex items-center justify-center cursor-not-allowed"
+            className="text-red-600 text-lg w-9 h-8 rounded-full bg-white flex items-center justify-center cursor-not-allowed"
             title="already in wishlist"
           >
             <FontAwesomeIcon icon={faHeart} size="1x" />

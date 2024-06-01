@@ -1,7 +1,7 @@
 "use client";
 
 import { useWishCount } from "@/app/(home)/hooks/useWishCount";
-import { faBagShopping, faHeart } from "@fortawesome/free-solid-svg-icons";
+import {  faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -60,7 +60,7 @@ const WishAction = ({ productId, wishList, user }) => {
       {isWished ? (
         <button
           disabled
-          className="border border-gray-300 text-gray-600 px-8 py-2 font-medium rounded uppercase flex items-center gap-2 bg-gray-200 cursor-not-allowed"
+          className="border border-red-300 text-red-600 px-8 py-2 font-medium rounded uppercase flex items-center gap-2 bg-white cursor-not-allowed"
         >
           <FontAwesomeIcon icon={faHeart} size="1x" /> In Wishlist
         </button>

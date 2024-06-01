@@ -19,7 +19,16 @@ const LoginForm = () => {
       if (response.error) {
         setError(response.error.message);
       } else {
-        router.push("/account");
+        const wishId = localStorage.getItem("wishlistProductId");
+        const cartId = localStorage.getItem("cartListProductId");
+
+        if (wishId) {
+          router.push("/wishlist");
+        } else if (cartId) {
+          router.push("/checkout");
+        } else {
+          router.push("/account");
+        }
       }
     } catch (err) {
       setError(err.message);

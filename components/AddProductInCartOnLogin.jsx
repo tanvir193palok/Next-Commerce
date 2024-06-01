@@ -33,8 +33,10 @@ const AddProductInCartOnLogin = ({ user }) => {
 
     if (user) {
       const productId = localStorage.getItem("cartListProductId");
+
       const quantity =
         parseInt(localStorage.getItem("cartProductQuantity"), 10) || 1;
+
       if (productId) {
         addProductToCart(productId, quantity);
         localStorage.removeItem("cartListProductId");
