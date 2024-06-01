@@ -1,9 +1,9 @@
 import { getAllProducts } from "@/database/queries";
 import ProductCard from "../product/ProductCard";
 
-const Products = async ({ category, min, max }) => {
-  const products = await getAllProducts(category, min, max);
-  
+const Products = async ({ category, min, max, search }) => {
+  const products = await getAllProducts(category, min, max, search);
+
   return (
     <div className="col-span-3">
       <div className="grid md:grid-cols-3 grid-cols-2 gap-6">

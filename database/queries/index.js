@@ -12,7 +12,7 @@ import {
   replaceMongoIdInObject,
 } from "@/utils/data-util";
 
-export async function getAllProducts(category, min, max) {
+export async function getAllProducts(category, min, max, search) {
   let products = await productModel.find().lean();
 
   if (category) {
@@ -34,6 +34,19 @@ export async function getAllProducts(category, min, max) {
   } else if (max) {
     products = products.filter((product) => {
       return product.price < parseInt(max);
+    });
+  }
+
+  if (search) {
+    const searchRegex = new RegExp(search, "i");
+
+    products = products.filter((product) => {
+      return (
+        searchRegex.test(product.name) ||
+        searchRegex.test(product.brand) ||
+        searchRegex.test(product.category) ||
+        product.tags.some((tag) => searchRegex.test(tag))
+      );
     });
   }
 
