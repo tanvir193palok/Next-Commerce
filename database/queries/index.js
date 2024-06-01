@@ -58,6 +58,12 @@ export async function getProductById(productId) {
   return replaceMongoIdInObject(product);
 }
 
+export async function getproductCountById(productId) {
+  const product = await productModel.findById(productId).lean();
+
+  return product.count;
+}
+
 export async function getReleventProducts(tags, excludeProductId) {
   const products = await productModel
     .find({

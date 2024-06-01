@@ -4,7 +4,7 @@ import Sidebar from "@/components/shop/Sidebar";
 import { getRefineCategory } from "@/utils/data-util";
 
 const ShopPage = async ({ searchParams: { category, min, max } }) => {
-  console.log(min, max);
+
   return (
     <>
       <Breadcrumb text={"Shop"} />

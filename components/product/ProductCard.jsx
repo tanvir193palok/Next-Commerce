@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import StarRating from "./StarRating";
 import ClickActions from "./ClickActions";
-import { getWishlist } from "@/database/queries";
+import { getWishlist, getproductCountById } from "@/database/queries";
 import { auth } from "@/auth";
 import AddToCart from "./AddToCart";
 
@@ -18,6 +18,12 @@ const ProductCard = async ({ product }) => {
     product?.price,
     product?.discountPercentage
   );
+
+  //For handling count of trending and to new arrived product
+  let count = 0;
+  if (product?.productId) {
+    count = await getproductCountById(product?.productId);
+  }
 
   return (
     <div className="bg-white shadow rounded overflow-hidden group">
@@ -65,7 +71,7 @@ const ProductCard = async ({ product }) => {
         productId={product?.productId || product?.id}
         wishList={wishes}
         user={session?.user}
-        productCount={product?.count}
+        productCount={product?.count || count}
       />
     </div>
   );

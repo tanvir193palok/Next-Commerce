@@ -1,6 +1,7 @@
 import ProductCard from "./product/ProductCard";
 
 const CategorizedProduct = ({ products, type }) => {
+  
   return (
     <div className="container pb-16">
       <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">{type}</h2>
