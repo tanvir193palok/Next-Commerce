@@ -8,6 +8,7 @@ import { useState } from "react";
 
 const AddToCart = ({ productId, user, productCount }) => {
   const [error, setError] = useState("");
+  const [addedToCart, setAddedToCart] = useState(false);
   const { setProductCount } = useCartProductCount();
   const router = useRouter();
 
@@ -27,7 +28,8 @@ const AddToCart = ({ productId, user, productCount }) => {
       if (response.status === 200) {
         setProductCount((prev) => prev + 1);
         router.refresh();
-        console.log("Product added to cart");
+        setAddedToCart(true);
+        setTimeout(() => setAddedToCart(false), 400); 
       } else {
         const errorText = await response.text();
         throw new Error(errorText);
@@ -61,8 +63,14 @@ const AddToCart = ({ productId, user, productCount }) => {
         }`}
         disabled={productCount === 0}
       >
-        <span className="pr-2"><FontAwesomeIcon icon={faBagShopping} /></span>
-        {productCount === 0 ? "Out Of Stock" : "Add to cart"}
+        <span className="pr-2">
+          <FontAwesomeIcon icon={faBagShopping} />
+        </span>
+        {productCount === 0
+          ? "Out Of Stock"
+          : addedToCart
+          ? "Added to cart"
+          : "Add to cart"}
       </button>
     </>
   );

@@ -6,10 +6,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import ProductInCartCount from "./nav/ProductInCartCount";
 import Search from "./Search";
+import { redirect } from "next/navigation";
 
 const Header = async ({ isAuth }) => {
   const session = await auth();
   const isAuthenticated = !!session?.user;
+
+  if (session?.error === "RefreshAccessTokenError") {
+    redirect("/login");
+  }
 
   return (
     <header className="py-4 shadow-sm bg-white">

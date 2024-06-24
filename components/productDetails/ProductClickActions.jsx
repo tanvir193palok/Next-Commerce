@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 
 const ProductClickActions = ({ productId, wishList, user, productCount }) => {
   const [quantity, setQuantity] = useState(1);
+  const [addedToCart, setAddedToCart] = useState(false);
   const { setProductCount } = useCartProductCount();
   const router = useRouter();
 
@@ -37,6 +38,8 @@ const ProductClickActions = ({ productId, wishList, user, productCount }) => {
         setProductCount((prev) => prev + 1);
         console.log("Product added to cart");
         setQuantity(1);
+        setAddedToCart(true);
+        setTimeout(() => setAddedToCart(false), 400);
         router.refresh();
       } else {
         const errorText = await response.text();
@@ -92,7 +95,12 @@ const ProductClickActions = ({ productId, wishList, user, productCount }) => {
           }`}
           disabled={productCount === 0}
         >
-          <FontAwesomeIcon icon={faBagShopping} size="1x" /> add to cart
+          <FontAwesomeIcon icon={faBagShopping} size="1x" />
+          {productCount === 0
+            ? "Out Of Stock"
+            : addedToCart
+            ? "Added to cart"
+            : "Add to cart"}
         </button>
 
         <WishAction productId={productId} wishList={wishList} user={user} />

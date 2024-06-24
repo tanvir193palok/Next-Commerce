@@ -4,7 +4,9 @@ import { signIn } from "next-auth/react";
 
 const SocialLogin = () => {
   const handleAuth = (provider) => {
-    signIn(provider, { callbackUrl: "http://localhost:3000/account" });
+    signIn(provider, {
+      callbackUrl: "https://next-commerce-one.vercel.app/account",
+    });
   };
   return (
     <div className="mt-4 flex gap-4">

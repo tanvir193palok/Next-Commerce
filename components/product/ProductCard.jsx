@@ -9,10 +9,7 @@ import AddToCart from "./AddToCart";
 
 const ProductCard = async ({ product }) => {
   const session = await auth();
-  let wishes = [];
-  if (session?.user) {
-    wishes = await getWishlist();
-  }
+  const wishes = await getWishlist();
 
   const discountPrice = getDiscountPrice(
     product?.price,

@@ -108,14 +108,20 @@ export async function getWishlist() {
   const email = await getUserEmail();
   const userInfo = await userModel.findOne({ email });
 
-  return userInfo.shippingIds;
+  if (userInfo) {
+    return userInfo.shippingIds;
+  }
+  return [];
 }
 
 export async function getProductsInCart() {
   const email = await getUserEmail();
   const userInfo = await userModel.findOne({ email });
 
-  return userInfo.productsInCart;
+  if (userInfo) {
+    return userInfo.productsInCart;
+  }
+  return [];
 }
 
 export async function deleteProductsInCart() {
