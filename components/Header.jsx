@@ -21,24 +21,38 @@ const Header = async ({ isAuth }) => {
       <div className="container flex items-center justify-between">
         {isAuth ? (
           <Link href="/">
-            <Image
-              src="/assets/images/logo.svg"
-              width={80}
-              height={80}
-              alt="Logo"
-              className="w-32"
-            />
+            <div className="flex">
+              <Image
+                src="/assets/images/logoo.jpg"
+                width={60}
+                height={80}
+                alt="Logo"
+                className=""
+              />
+              <div className="flex pt-4">
+                <p className="text-2xl font-bold">NEXT-</p>
+                <span className="flex pl-1 text-lg text-primary">commerce</span>
+              </div>
+            </div>
           </Link>
         ) : (
           <>
             <Link href="/">
-              <Image
-                src="/assets/images/logo.svg"
-                width={80}
-                height={80}
-                alt="Logo"
-                className="w-32"
-              />
+              <div className="flex">
+                <Image
+                  src="/assets/images/logoo.jpg"
+                  width={60}
+                  height={80}
+                  alt="Logo"
+                  className=""
+                />
+                <div className="flex pt-4">
+                  <p className="text-2xl font-bold">NEXT-</p>
+                  <span className="flex pl-1 text-lg text-primary">
+                    commerce
+                  </span>
+                </div>
+              </div>
             </Link>
             <Search />
             <div className="flex items-center space-x-4">
