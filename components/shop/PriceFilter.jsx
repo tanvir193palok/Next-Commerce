@@ -44,17 +44,17 @@ const PriceFilter = () => {
   };
 
   return (
-    <div className="pt-4">
-      <h3 className="text-xl text-gray-800 mb-3 uppercase font-medium">
+    <div className="pt-2 lg:pt-4">
+      <h3 className="text-sm lg:text-xl text-gray-800 mb-3 uppercase font-medium">
         Price
       </h3>
-      <div className="mt-4 flex items-center">
+      <div className="mt-1 md:mt-2 lg:mt-4 flex items-center">
         <input
           type="text"
           name="min"
           id="min"
           value={min}
-          className="w-full border-gray-300 focus:border-primary rounded focus:ring-0 px-3 py-1 text-gray-600 shadow-sm"
+          className="w-full text-sm lg:text-base border-gray-300 focus:border-primary rounded focus:ring-0 px-3 py-1 text-gray-600 shadow-sm"
           placeholder="min"
           onChange={handleMinChange}
         />
@@ -64,7 +64,7 @@ const PriceFilter = () => {
           name="max"
           id="max"
           value={max}
-          className="w-full border-gray-300 focus:border-primary rounded focus:ring-0 px-3 py-1 text-gray-600 shadow-sm"
+          className="w-full text-sm lg:text-base border-gray-300 focus:border-primary rounded focus:ring-0 px-3 py-1 text-gray-600 shadow-sm"
           placeholder="max"
           onChange={handleMaxChange}
         />

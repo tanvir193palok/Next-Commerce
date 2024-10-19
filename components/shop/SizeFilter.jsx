@@ -1,7 +1,7 @@
 const SizeFilter = () => {
   return (
-    <div className="pt-4">
-      <h3 className="text-xl text-gray-800 mb-3 uppercase font-medium">size</h3>
+    <div className="pt-2 lg:pt-4">
+      <h3 className="text-sm lg:text-xl text-gray-800 mb-3 uppercase font-medium">size</h3>
       <div className="flex items-center gap-2">
         <div className="size-selector">
           <input type="radio" name="size" id="size-xs" className="hidden" />

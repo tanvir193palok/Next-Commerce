@@ -5,7 +5,7 @@ import { signOut } from "next-auth/react";
 const Logout = () => {
   return (
     <button
-      className="text-gray-200 hover:text-white transition text-xs md:text-md md:uppercase pr-4 md:pr-0"
+      className="text-gray-200 hover:text-white transition text-xs md:text-sm xl:text-base md:uppercase pr-4 md:pr-0"
       onClick={() => signOut({ callbackUrl: "http://localhost:3000" })}
     >
       Logout

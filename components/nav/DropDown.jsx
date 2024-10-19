@@ -18,7 +18,7 @@ const DropDown = () => {
           alt="sofa"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-sm">Home Furniture</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Home Furniture</span>
       </Link>
       <Link
         href="/shop?category=Gym Accessories"
@@ -31,7 +31,7 @@ const DropDown = () => {
           alt="terrace"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-sm">Gym Accessories</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Gym Accessories</span>
       </Link>
       <Link
         href="/shop?category=Office Furniture"
@@ -44,7 +44,7 @@ const DropDown = () => {
           alt="bed"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-sm">Office Furniture</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Office Furniture</span>
       </Link>
       <Link
         href="/shop?category=Music Accessories"
@@ -57,7 +57,7 @@ const DropDown = () => {
           alt="Outdoor"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-sm">Music Accessories</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Music Accessories</span>
       </Link>
       <Link
         href="/shop?category=Laptop Accessories"
@@ -70,7 +70,7 @@ const DropDown = () => {
           alt="outdoor"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-sm">Laptop Accessories</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Laptop Accessories</span>
       </Link>
       <Link
         href="/shop?category=Fashion"
@@ -83,7 +83,7 @@ const DropDown = () => {
           alt="Mattress"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-sm">Fashion</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Fashion</span>
       </Link>
     </div>
   );

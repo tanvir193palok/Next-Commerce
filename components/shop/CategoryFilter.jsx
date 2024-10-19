@@ -46,10 +46,10 @@ const CategoryFilter = () => {
 
   return (
     <div>
-      <h3 className="text-xl text-gray-800 mb-3 uppercase font-medium">
+      <h3 className="text-sm lg:text-xl text-gray-800 mb-1 ld:mb-3 uppercase font-medium">
         Categories
       </h3>
-      <div className="space-y-2">
+      <div className="space-y-1 lg:space-y-2">
         <div className="flex items-center">
           <input
             type="checkbox"
@@ -61,7 +61,7 @@ const CategoryFilter = () => {
           />
           <label
             for="Gym Accessories"
-            className="text-gray-600 ml-3 cusror-pointer"
+            className="text-gray-600 ml-3 cusror-pointer text-sm lg:text-base"
           >
             Gym Accessories
           </label>
@@ -78,7 +78,7 @@ const CategoryFilter = () => {
           />
           <label
             for="Home Furniture"
-            className="text-gray-600 ml-3 cusror-pointer"
+            className="text-gray-600 ml-3 cusror-pointer text-sm lg:text-base"
           >
             Home Furniture
           </label>
@@ -95,7 +95,7 @@ const CategoryFilter = () => {
           />
           <label
             for="Office Furniture"
-            className="text-gray-600 ml-3 cusror-pointer"
+            className="text-gray-600 ml-3 cusror-pointer text-sm lg:text-base"
           >
             Office Furniture
           </label>
@@ -110,7 +110,7 @@ const CategoryFilter = () => {
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
             onChange={handleFilterByCategory}
           />
-          <label for="Gadgets" className="text-gray-600 ml-3 cusror-pointer">
+          <label for="Gadgets" className="text-gray-600 ml-3 cusror-pointer text-sm lg:text-base">
             Gadgets
           </label>
           <div className="ml-auto text-gray-600 text-sm">(10)</div>
@@ -124,7 +124,7 @@ const CategoryFilter = () => {
             className="text-primary focus:ring-0 rounded-sm cursor-pointer"
             onChange={handleFilterByCategory}
           />
-          <label for="Fashion" className="text-gray-600 ml-3 cusror-pointer">
+          <label for="Fashion" className="text-gray-600 ml-3 cusror-pointer text-sm lg:text-base">
             Fashion
           </label>
           <div className="ml-auto text-gray-600 text-sm">(10)</div>

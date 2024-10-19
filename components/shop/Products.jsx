@@ -6,7 +6,7 @@ const Products = async ({ category, min, max, search }) => {
 
   return (
     <div className="col-span-3">
-      <div className="grid md:grid-cols-3 grid-cols-2 gap-6">
+      <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-6">
         {products &&
           products.map((product) => (
             <ProductCard key={product.id} product={product} />
