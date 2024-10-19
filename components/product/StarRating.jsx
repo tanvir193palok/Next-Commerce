@@ -5,7 +5,11 @@ const StarRating = ({ rating }) => {
   return (
     <>
       {Array.from({ length: rating }, (_, index) => (
-        <FontAwesomeIcon key={index} icon={faStar} />
+        <FontAwesomeIcon
+          key={index}
+          icon={faStar}
+          className="text-yellow-300 text-xs md:text-lg"
+        />
       ))}
     </>
   );

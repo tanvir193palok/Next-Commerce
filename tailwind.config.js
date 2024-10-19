@@ -6,11 +6,12 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screen: {
+    screens: {
       sm: "576px",
       md: "768px",
       lg: "992px",
       xl: "1200px",
+      "2xl": "1400px",
     },
     container: {
       center: true,
@@ -26,7 +27,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("@tailwindcss/forms"),
-  ],
+  plugins: [require("@tailwindcss/forms")],
 };

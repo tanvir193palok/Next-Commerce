@@ -23,7 +23,7 @@ const ProductCard = async ({ product }) => {
   }
 
   return (
-    <div className="bg-white shadow rounded overflow-hidden group">
+    <div className="bg-white shadow rounded overflow-hidden group mb-4 md:mb-0">
       <div className="relative">
         <div className="w-full h-64 overflow-hidden">
           <Image
@@ -43,13 +43,13 @@ const ProductCard = async ({ product }) => {
       </div>
       <div className="pt-4 pb-3 px-4">
         <Link href={`/${product?.productId || product?.id}`}>
-          <h4 className="uppercase h-14 font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">
+          <h4 className="uppercase h-10 md:h-14 font-medium text-base md:text-xl mb-2 text-gray-800 hover:text-primary transition">
             {product?.name}
           </h4>
         </Link>
         <div className="flex items-baseline mb-1 space-x-2">
-          <p className="text-xl text-primary font-semibold">${discountPrice}</p>
-          <p className="text-sm text-gray-400 line-through">
+          <p className="md:text-xl text-primary md:font-semibold tracking-wide md:tracking-wider">${discountPrice}</p>
+          <p className="text-sm text-gray-400 line-through tracking-wide md:tracking-wider">
             ${product?.price}
           </p>
         </div>

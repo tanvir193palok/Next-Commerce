@@ -40,8 +40,8 @@ const Search = () => {
   };
 
   return (
-    <div className="w-full max-w-xl relative flex">
-      <span className="absolute left-4 top-3 text-lg text-gray-400">
+    <div className="md:w-full md:max-w-xl relative flex mx-6">
+      <span className="absolute left-2 top-2  md:left-4 md:top-3 text-sm md:text-2xl text-gray-400">
         <FontAwesomeIcon icon={faMagnifyingGlass} />
       </span>
       <input
@@ -50,12 +50,12 @@ const Search = () => {
         id="search"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        className="w-full border border-primary border-r-0 pl-12 py-3 pr-3 rounded-l-md focus:outline-none hidden md:flex"
+        className="w-full text-xs md:text-lg pl-6 border border-primary border-r-0 md:pl-12 md:py-3 pr-3 rounded-l-md focus:outline-none flex"
         placeholder="search here"
       />
       <button
         onClick={doSearch}
-        className="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition hidden md:flex"
+        className="bg-primary border border-primary text-white text-xs md:text-lg px-2 md:px-8 rounded-r-md hover:bg-transparent hover:text-primary transition flex"
       >
         {isClicked ? (
           <span className="pt-3">Search</span>

@@ -56,7 +56,7 @@ const AddToCart = ({ productId, user, productCount }) => {
       {error && <div>{error}</div>}
       <button
         onClick={handleToAddCart}
-        className={`block w-full py-1 text-center text-white border rounded-b hover:bg-transparent hover:text-primary transition ${
+        className={`block w-full py-2 text-center text-white border rounded-b hover:bg-transparent hover:text-primary transition ${
           productCount === 0
             ? "bg-gray-400 cursor-not-allowed"
             : "bg-primary border-primary"

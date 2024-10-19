@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Ads = () => {
   return (
-    <div class="container pb-16">
+    <div class="container pb-10 md:pb-16">
       <Link href="#">
         <Image
           src="/assets/images/offer.jpg"
