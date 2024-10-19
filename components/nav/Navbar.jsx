@@ -2,25 +2,27 @@ import Link from "next/link";
 import DropDown from "./DropDown";
 import { auth } from "@/auth";
 import Logout from "../auth/Logout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = async () => {
   const session = await auth();
 
   return (
     <nav className="bg-gray-800">
-      <div className="container flex">
-        <div className="px-8 py-4 bg-primary md:flex items-center cursor-pointer relative group hidden">
+      <div className="flex md:container">
+        <div className="px-3 py-2 md:px-8 md:py-4 bg-primary items-center cursor-pointer relative group">
           <span className="text-white">
-            <i className="fa-solid fa-bars"></i>
+            <FontAwesomeIcon icon={faBars} />
           </span>
-          <span className="capitalize ml-2 text-white">All Categories</span>
+          <span className="capitalize ml-2 text-white md:flex hidden">All Categories</span>
 
           {/* Dropdown */}
           <DropDown />
         </div>
 
-        <div className="flex items-center justify-between flex-grow md:pl-12 py-5">
-          <div className="flex items-center space-x-6 capitalize">
+        <div className="flex items-center justify-between flex-grow pl-2 md:pl-12 py-3 md:py-5">
+          <div className="flex items-center space-x-3 md:space-x-6 text-xs md:text-md md:uppercase">
             <Link
               href="/"
               className="text-gray-200 hover:text-white transition"
@@ -51,7 +53,7 @@ const Navbar = async () => {
           ) : (
             <Link
               href="/login"
-              className="text-gray-200 hover:text-white transition"
+              className="text-gray-200 hover:text-white transition text-xs md:text-md uppercase"
             >
               Login
             </Link>

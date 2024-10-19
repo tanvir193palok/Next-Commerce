@@ -18,7 +18,7 @@ const Header = async ({ isAuth }) => {
   }
 
   return (
-    <header className="py-4 shadow-sm bg-white">
+    <header className="py-2 shadow-sm bg-white">
       <div className="container flex items-center justify-between">
         {isAuth ? (
           <Link href="/">
@@ -61,7 +61,7 @@ const Header = async ({ isAuth }) => {
                 href={isAuthenticated ? "/wishlist" : "/login"}
                 className="text-center text-gray-700 hover:text-primary transition relative"
               >
-                <div className="text-lg md:text-2xl">
+                <div className="text-base md:text-2xl">
                   <FontAwesomeIcon icon={faHeart} />
                 </div>
                 <div className="hidden md:flex text-xs leading-3">Wishlist</div>
@@ -71,7 +71,7 @@ const Header = async ({ isAuth }) => {
                 href={isAuthenticated ? "/checkout" : "/login"}
                 className="text-center text-gray-700 hover:text-primary transition relative"
               >
-                <div className="text-lg md:text-2xl">
+                <div className="text-base md:text-2xl">
                   <FontAwesomeIcon icon={faBagShopping} />
                 </div>
                 <div className="hidden md:flex text-xs leading-3">Cart</div>
@@ -81,7 +81,7 @@ const Header = async ({ isAuth }) => {
                 href={isAuthenticated ? "/account" : "/login"}
                 className="text-center text-gray-700 hover:text-primary transition relative md:pl-6"
               >
-                <div className="text-lg md:text-2xl">
+                <div className="text-base md:text-2xl">
                   <FontAwesomeIcon icon={faUser} size="1x" />
                 </div>
                 <div className="hidden md:flex text-xs leading-3">Account</div>
