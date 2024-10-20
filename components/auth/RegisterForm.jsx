@@ -40,9 +40,9 @@ const RegisterForm = () => {
 
   return (
     <>
-      {error && <div className="text-xl text-red-500 text-center">{error}</div>}
+      {error && <div className="text-base lg:text-xl text-red-500 text-center">{error}</div>}
       <form onSubmit={onSubmit}>
-        <div className="space-y-2">
+        <div className="space-y-2 text-sm lg:text-base">
           <div>
             <label htmlFor="name" className="text-gray-600 mb-2 block">
               Full Name
@@ -51,7 +51,7 @@ const RegisterForm = () => {
               type="text"
               name="name"
               id="name"
-              className="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
+              className="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-xs lg:text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
               placeholder="fulan fulana"
             />
           </div>
@@ -63,7 +63,7 @@ const RegisterForm = () => {
               type="email"
               name="email"
               id="email"
-              className="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
+              className="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-xs lg:text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
               placeholder="youremail.@domain.com"
             />
           </div>
@@ -92,7 +92,7 @@ const RegisterForm = () => {
             />
           </div>
         </div>
-        <div className="mt-6">
+        <div className="mt-4 lg:mt-6 text-sm lg:text-base">
           <div className="flex items-center">
             <input
               type="checkbox"
@@ -114,7 +114,7 @@ const RegisterForm = () => {
         <div className="mt-4">
           <button
             type="submit"
-            className="block w-full py-2 text-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
+            className="block w-full py-2 text-sm lg:text-base  text-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
           >
             create account
           </button>
