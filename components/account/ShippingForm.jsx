@@ -42,9 +42,9 @@ const ShippingForm = ({ setIsEditing, user }) => {
   return (
     <>
       {error ? (
-        <div className="text-red-500 text-lg">{error}</div>
+        <div className="text-red-500 text-base lg:text-lg">{error}</div>
       ) : (
-        <form onSubmit={onSubmit} className="space-y-4">
+        <form onSubmit={onSubmit} className="space-y-4 text-sm lg:text-base">
           <div>
             <label htmlFor="name" className="block text-gray-700">
               Name
@@ -93,7 +93,7 @@ const ShippingForm = ({ setIsEditing, user }) => {
           </div>
           <button
             type="submit"
-            className="bg-primary text-white px-4 py-2 rounded"
+            className="bg-primary text-white px-6 py-2 rounded"
           >
             Save
           </button>

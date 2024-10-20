@@ -6,7 +6,7 @@ const CheckoutPage = () => {
   return (
     <>
       <Breadcrumb text={"Checkout"} />
-      <div class="container grid lg:grid-cols-12 items-start pb-8 lg:pb-16 pt-4 gap-6">
+      <div class="container grid lg:grid-cols-12 items-start pb-8 lg:pb-16 pt-2 lg:pt-4 gap-6">
         <CheckoutForm />
         <CheckoutSummary />
       </div>

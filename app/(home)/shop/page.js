@@ -7,7 +7,7 @@ const ShopPage = async ({ searchParams: { search, category, min, max } }) => {
   return (
     <>
       <Breadcrumb text={"Shop"} />
-      <div className="container grid md:grid-cols-4 grid-cols-1 gap-6 md:pt-2 xl:pt-4 pb-8 lg:pb-16 items-start">
+      <div className="container grid md:grid-cols-4 grid-cols-1 gap-6 pt-2 lg:pt-4 pb-8 lg:pb-16 items-start">
         <div className="order-1 md:order-none">
           <Sidebar />
         </div>

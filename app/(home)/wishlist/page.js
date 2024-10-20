@@ -7,7 +7,7 @@ const WishlistPage = async () => {
   return (
     <>
       <Breadcrumb text={"Profile"} />
-      <div className="container gap-6 pt-4 pb-16">
+      <div className="container gap-6 pt-2 lg:pt-4 pb-16">
         {wishes.length === 0 && (
           <p className="flex pt-28 text-gray-600 justify-center">
             Your wishlist is currently empty. Start adding products you love!

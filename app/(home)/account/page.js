@@ -13,8 +13,8 @@ const AccountPage = async () => {
   return (
     <>
       <Breadcrumb text={"Account"} />
-      <div class="container  items-start gap-6 pt-4 pb-16">
-        <div class=" grid grid-cols-3 gap-4 mx-auto max-w-5xl">
+      <div class="container items-start gap-6 pt-2 lg:pt-4 pb-8 lg:pb-16">
+        <div class=" grid lg:grid-cols-3 gap-4 mx-auto max-w-5xl">
           <ProfileInfo user={session?.user} />
           <ShippingInfo user={session?.user} info={shippingInfo} />
           <BillingInfo user={session?.user} info={billingInfo} />

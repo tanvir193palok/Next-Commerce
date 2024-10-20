@@ -3,7 +3,7 @@ import Link from "next/link";
 const Banner = () => {
   return (
     <div className="bg-[url('/banner-bg.jpg')] bg-cover bg-no-repeat bg-center py-20 md:py-36">
-      <div className="container px-10 md:px-0">
+      <div className="container px-10 md:px-4">
         <h1 className="text-3xl md:text-6xl text-gray-800 font-medium mb-4 capitalize">
           best collection for <br /> home decoration
         </h1>
