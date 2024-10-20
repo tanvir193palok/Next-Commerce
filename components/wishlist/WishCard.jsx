@@ -7,18 +7,18 @@ const WishCard = async ({ wish }) => {
   const wishData = await getProductById(wish);
 
   return (
-    <div className="flex items-center justify-between border gap-6 p-4 border-gray-200 rounded">
+    <div className="flex items-center justify-between border gap-6 p-1 lg:p-4 border-gray-200 rounded">
       <div className="w-28">
         <Image
           src={wishData?.gallery[0]}
           width={200}
           height={200}
-          alt="product 6"
+          alt="product"
           className="w-full"
         />
       </div>
       <div className="w-1/3">
-        <h2 className="text-gray-800 text-xl font-medium uppercase">
+        <h2 className="text-gray-800 text-base lg:text-xl font-medium uppercase">
           {wishData?.name}
         </h2>
         <p className="text-gray-500 text-sm">
@@ -28,7 +28,7 @@ const WishCard = async ({ wish }) => {
           </span>
         </p>
       </div>
-      <div className="text-primary text-lg font-semibold">
+      <div className="text-primary text-sm lg:text-lg font-semibold">
         ${getDiscountPrice(wishData?.price, wishData?.discountPercentage)}
       </div>
       <WishClickActions productId={wish} />

@@ -10,8 +10,8 @@ const CheckoutSummary = async () => {
   }
 
   return (
-    <div className="col-span-4 border border-gray-200 p-4 rounded">
-      <h4 className="text-gray-800 text-lg mb-4 font-medium uppercase">
+    <div className="col-span-8 lg:col-span-4 border border-gray-200 p-4 rounded">
+      <h4 className="text-gray-800 text-base lg:text-lg mb-2 lg:mb-4 font-medium uppercase">
         order summary
       </h4>
       <div className="space-y-2">
@@ -21,23 +21,23 @@ const CheckoutSummary = async () => {
             <SummaryProduct key={product.productId} product={product} />
           ))
         ) : (
-          <p className="flex justify-center text-gray-600 py-6">
+          <p className="flex text-sm lg:text-base justify-center text-gray-600 py-6">
             Your cart is currently empty.
           </p>
         )}
       </div>
 
-      <div className="flex justify-between border-b border-gray-200 mt-1 text-gray-800 font-medium py-3 uppercas">
+      <div className="flex justify-between text-sm lg:text-base border-b border-gray-200 mt-1 text-gray-800 font-medium py-3 uppercase">
         <p>Subtotal</p>
         <p>${totalPrice}</p>
       </div>
 
-      <div className="flex justify-between border-b border-gray-200 mt-1 text-gray-800 font-medium py-3 uppercas">
+      <div className="flex justify-between text-sm lg:text-base border-b border-gray-200 mt-1 text-gray-800 font-medium py-3 uppercase">
         <p>Shipping</p>
         <p>Free</p>
       </div>
 
-      <div className="flex justify-between text-gray-800 font-medium py-3 uppercas">
+      <div className="flex justify-between text-sm lg:text-base text-gray-800 font-medium py-3 uppercase">
         <p className="font-semibold">Total</p>
         <p>${totalPrice}</p>
       </div>

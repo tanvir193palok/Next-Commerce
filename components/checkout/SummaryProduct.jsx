@@ -2,7 +2,7 @@ const SummaryProduct = ({ product }) => {
   const totalprice = product?.price * product?.quantity;
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col text-sm lg:text-base">
       <div>
         <h5 className="text-gray-800 font-medium w-full">{product.name}</h5>
       </div>

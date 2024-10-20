@@ -45,8 +45,8 @@ const CheckoutForm = () => {
 
   return (
     <div className="col-span-8 border border-gray-200 p-4 rounded">
-      <h3 className="text-lg font-medium capitalize mb-4">Checkout</h3>
-      <div className="space-y-4">
+      <h3 className="text-base lg:text-lg font-medium capitalize mb-2 lg:mb-4">Checkout</h3>
+      <div className="space-y-4 text-sm lg:text-base">
         {error && <p className="text-red-500">{error}</p>}
         <form onSubmit={onSubmit}>
           <div className="grid grid-cols-2 gap-4">
