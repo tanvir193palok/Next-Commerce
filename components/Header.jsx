@@ -58,7 +58,7 @@ const Header = async ({ isAuth }) => {
               </div>
             </Link>
             <Search />
-            <div className="flex items-center space-x-3 md:space-x-4 lg:space-x-6">
+            <div className="flex items-center space-x-3 lg:space-x-4 xl:space-x-5">
               <Link
                 href={isAuthenticated ? "/wishlist" : "/login"}
                 className="text-center text-gray-700 hover:text-primary transition relative"
@@ -85,7 +85,7 @@ const Header = async ({ isAuth }) => {
               </Link>
               <Link
                 href={isAuthenticated ? "/account" : "/login"}
-                className="text-center text-gray-700 hover:text-primary transition relative md:pl-6"
+                className="text-center text-gray-700 hover:text-primary transition relative md:pl-2"
               >
                 <div className="text-base lg:text-2xl">
                   <FontAwesomeIcon icon={faUser} size="1x" />

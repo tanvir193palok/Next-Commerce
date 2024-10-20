@@ -11,7 +11,7 @@ const ImageGallery = ({ images }) => {
       <Image
         src={selectedImage}
         alt="product"
-        className="pl-20"
+        className="lg:pl-20"
         width={600}
         height={700}
       />

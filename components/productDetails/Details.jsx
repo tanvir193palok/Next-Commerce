@@ -3,7 +3,7 @@ import ProductInfo from "./ProductInfo";
 
 const Details = ({ product }) => {
   return (
-    <div class="container grid grid-cols-2 gap-6">
+    <div class="container grid grid-cols-1 lg:grid-cols-2 gap-6">
       <ImageGallery images={product?.gallery} />
       <ProductInfo product={product} />
     </div>

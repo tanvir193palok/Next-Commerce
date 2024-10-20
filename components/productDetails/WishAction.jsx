@@ -60,7 +60,7 @@ const WishAction = ({ productId, wishList, user }) => {
       {isWished ? (
         <button
           disabled
-          className="border border-red-300 text-red-600 px-8 py-2 font-medium rounded uppercase flex items-center gap-2 bg-white cursor-not-allowed"
+          className="border border-red-300 text-red-600 px-8 py-2 md:font-medium text-xs md:text-base rounded uppercase flex items-center gap-1 md:gap-2 bg-white cursor-not-allowed"
         >
           <FontAwesomeIcon icon={faHeart} size="1x" /> In Wishlist
         </button>
@@ -68,7 +68,7 @@ const WishAction = ({ productId, wishList, user }) => {
         <button
           onClick={handleWishlistClick}
           disabled={isAdding}
-          className={`border border-gray-300 px-8 py-2 font-medium rounded uppercase flex items-center gap-2 ${
+          className={`border border-gray-300 px-8 py-2 md:font-medium text-xs md:text-base rounded uppercase flex items-center gap-1 md:gap-2 ${
             isAdding
               ? "text-gray-400 bg-gray-200 cursor-not-allowed"
               : "text-gray-600 hover:text-primary transition"

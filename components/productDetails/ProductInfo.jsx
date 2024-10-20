@@ -14,8 +14,8 @@ const ProductInfo = async ({ product }) => {
 
   return (
     <div>
-      <h2 className="text-3xl font-medium uppercase mb-2">{product?.name}</h2>
-      <div className="flex items-center mb-4">
+      <h2 className="text-lg md:text-xl lg:text-2xl xl:text-3xl font-medium uppercase mb-2">{product?.name}</h2>
+      <div className="flex items-center mb-2 lg:mb-4">
         {/* Star rating */}
         <div className="flex gap-1 text-sm text-yellow-400">
           <StarRating rating={product.rating} />
@@ -24,28 +24,28 @@ const ProductInfo = async ({ product }) => {
           ({product?.reviews} Reviews)
         </div>
       </div>
-      <div className="space-y-2">
+      <div className="space-y-2 text-sm lg:text-base">
         <p className="text-gray-800 font-semibold space-x-2">
           <span>Availability: </span>
           <span className="text-green-600">
             {product?.count > 0 ? "In Stock" : "Out of Stock"}
           </span>
         </p>
-        <p className="space-x-2">
+        <p className="space-x-2 text-sm lg:text-base">
           <span className="text-gray-800 font-semibold">Brand: </span>
           <span className="text-gray-600">{product?.brand}</span>
         </p>
-        <p className="space-x-2">
+        <p className="space-x-2  text-sm lg:text-base">
           <span className="text-gray-800 font-semibold">Category: </span>
           <span className="text-gray-600">{product?.category}</span>
         </p>
-        <p className="space-x-2">
+        <p className="space-x-2  text-sm lg:text-base">
           <span className="text-gray-800 font-semibold">SKU: </span>
           <span className="text-gray-600">{product?.sku}</span>
         </p>
       </div>
-      <div className="flex items-baseline mb-1 space-x-2 font-roboto mt-4">
-        <p className="text-xl text-primary font-semibold">
+      <div className="flex items-baseline mb-1 space-x-2 font-roboto mt-2 lg:mt-4">
+        <p className="text-base lg:text-xl text-primary font-semibold">
           ${getDiscountPrice(product?.price, product?.discountPercentage)}
         </p>
         <p className="text-base text-gray-400 line-through">
@@ -53,7 +53,7 @@ const ProductInfo = async ({ product }) => {
         </p>
       </div>
 
-      <p className="mt-4 text-gray-600">{product?.shortDescription}</p>
+      <p className="mt-2 lg:mt-4 text-sm lg:text-base text-gray-600">{product?.shortDescription}</p>
 
       {/* Handling add to wishlist and cart */}
 
