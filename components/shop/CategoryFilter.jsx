@@ -46,7 +46,7 @@ const CategoryFilter = () => {
 
   return (
     <div>
-      <h3 className="text-sm lg:text-xl text-gray-800 mb-1 ld:mb-3 uppercase font-medium">
+      <h3 className="text-sm md:text-base lg:text-xl text-gray-800 mb-1 md:mb-2 lg:mb-3 uppercase font-medium">
         Categories
       </h3>
       <div className="space-y-1 lg:space-y-2">

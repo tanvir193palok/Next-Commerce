@@ -18,7 +18,7 @@ const DropDown = () => {
           alt="sofa"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Home Furniture</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm lg:text-base xl:text-lg">Home Furniture</span>
       </Link>
       <Link
         href="/shop?category=Gym Accessories"
@@ -31,7 +31,7 @@ const DropDown = () => {
           alt="terrace"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Gym Accessories</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm lg:text-base xl:text-lg">Gym Accessories</span>
       </Link>
       <Link
         href="/shop?category=Office Furniture"
@@ -44,7 +44,7 @@ const DropDown = () => {
           alt="bed"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Office Furniture</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm lg:text-base xl:text-lg">Office Furniture</span>
       </Link>
       <Link
         href="/shop?category=Music Accessories"
@@ -57,7 +57,7 @@ const DropDown = () => {
           alt="Outdoor"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Music Accessories</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm lg:text-base xl:text-lg">Music Accessories</span>
       </Link>
       <Link
         href="/shop?category=Laptop Accessories"
@@ -70,7 +70,7 @@ const DropDown = () => {
           alt="outdoor"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Laptop Accessories</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm lg:text-base xl:text-lg">Laptop Accessories</span>
       </Link>
       <Link
         href="/shop?category=Fashion"
@@ -83,7 +83,7 @@ const DropDown = () => {
           alt="Mattress"
           className="w-5 h-5 object-contain"
         />
-        <span className="ml-6 text-gray-600 text-xs md:text-sm xl:text-base">Fashion</span>
+        <span className="ml-6 text-gray-600 text-xs md:text-sm lg:text-base xl:text-lg">Fashion</span>
       </Link>
     </div>
   );

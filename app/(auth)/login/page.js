@@ -5,7 +5,7 @@ import SocialLogin from "../../../components/auth/SocialLogin";
 const LoginPage = () => {
   return (
     <div className="contain py-8 lg:py-16">
-      <div className="max-w-lg shadow px-6 py-4 lg:py-7 mx-2 rounded overflow-hidden">
+      <div className="max-w-lg shadow px-6 py-4 lg:py-7 mx-2 md:mx-auto rounded overflow-hidden">
         <h2 className="text-lg lg:text-xl xl:text-2xl uppercase font-medium mb-1">Login</h2>
         <p className="text-gray-600 mb-6 text-sm">Welcome Back</p>
 

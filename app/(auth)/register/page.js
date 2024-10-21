@@ -5,7 +5,7 @@ import RegisterForm from "@/components/auth/RegisterForm";
 const RegisterPage = () => {
   return (
     <div className="contain py-8 lg:py-16">
-      <div className="max-w-lg mx-2 shadow px-6 py-4 lg:py-7 rounded overflow-hidden">
+      <div className="max-w-lg mx-2 md:mx-auto shadow px-6 py-4 lg:py-7 rounded overflow-hidden">
         <h2 className="text-lg lg:text-xl xl:text-2xl  uppercase font-medium mb-1">
           Create an account
         </h2>

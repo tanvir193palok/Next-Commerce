@@ -4,10 +4,10 @@ import Link from "next/link";
 const Categories = () => {
   return (
     <div className="container py-10 md:py-16">
-      <h2 className="text-xl md:text-2xl font-medium text-gray-800 uppercase mb-6">
+      <h2 className="text-xl lg:text-2xl font-medium text-gray-800 uppercase mb-6">
         shop by category
       </h2>
-      <div className="grid md:grid-cols-3 gap-6 md:gap-3">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-3 lg:gap-5">
         <div className="relative rounded-sm overflow-hidden group">
           <Image
             src="/assets/images/category/category-6.jpg"

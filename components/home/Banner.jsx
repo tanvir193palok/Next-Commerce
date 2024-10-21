@@ -4,10 +4,10 @@ const Banner = () => {
   return (
     <div className="bg-[url('/banner-bg.jpg')] bg-cover bg-no-repeat bg-center py-20 md:py-36">
       <div className="container px-10 md:px-4">
-        <h1 className="text-3xl md:text-6xl text-gray-800 font-medium mb-4 capitalize">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl text-gray-800 font-medium mb-4 capitalize">
           best collection for <br /> home decoration
         </h1>
-        <p className="text-base md:text-lg">
+        <p className="text-sm md:text-base lg:text-lg">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam{" "}
           <br />
           accusantium perspiciatis, sapiente magni eos dolorum ex quos dolores

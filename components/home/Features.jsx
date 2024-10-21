@@ -3,7 +3,7 @@ import Image from "next/image";
 const Features = () => {
   return (
     <div className="container py-10 lg:py-16">
-      <div className="w-10/12 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto justify-center">
+      <div className="w-10/12 md:w-full grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto justify-center">
         <div className="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
           <Image
             src="/assets/images/icons/delivery-van.svg"
