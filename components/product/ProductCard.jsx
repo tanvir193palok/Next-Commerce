@@ -43,7 +43,7 @@ const ProductCard = async ({ product }) => {
       </div>
       <div className="pt-4 pb-3 px-4">
         <Link href={`/${product?.productId || product?.id}`}>
-          <h4 className="uppercase h-10 md:h-14 font-medium text-base md:text-xl mb-2 text-gray-800 hover:text-primary transition">
+          <h4 className="uppercase h-10 md:h-20 font-medium text-base lg:text-lg mb-2 text-gray-800 hover:text-primary transition">
             {product?.name}
           </h4>
         </Link>

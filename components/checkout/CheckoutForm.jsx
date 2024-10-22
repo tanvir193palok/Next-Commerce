@@ -142,7 +142,7 @@ const CheckoutForm = () => {
           </div>
           <button
             type="submit"
-            className="block w-full py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition font-medium"
+            className="block w-full py-2 md:py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition font-medium"
           >
             Place order
           </button>

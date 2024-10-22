@@ -48,7 +48,7 @@ const WishClickActions = ({ productId }) => {
     <>
       <button
         onClick={deleteFromWishlist}
-        className={`text-gray-600 pr-6 cursor-pointer hover:text-primary ${
+        className={`text-gray-600 pr-2 md:pr-4 lg:pr-6 cursor-pointer hover:text-primary ${
           isDeleting || deletedItems.has(productId) ? "cursor-not-allowed" : ""
         }`}
         disabled={isDeleting || deletedItems.has(productId)}

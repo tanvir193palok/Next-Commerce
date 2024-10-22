@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-white lg:mt-10 pb-6 md:pb-12 border-t border-gray-100">
+    <footer className="bg-white lg:mt-10 pb-6 lg:pb-12 border-t border-gray-100">
       <div className="container grid grid-cols-1 ">
         <div className="col-span-1 space-y-4">
           <div className="flex">
@@ -13,13 +13,13 @@ const Footer = () => {
                 width={200}
                 height={200}
                 alt="Logo"
-                className="mt-12 w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48"
+                className="mt-12 w-24 h-24 md:w-28 md:h-28 lg:w-36 lg:h-36 xl:w-48 xl:h-48"
               />
             </div>
 
-            <div className="flex pt-28 pl-2">
-              <p className="text-2xl lg:text-6xl font-bold">NEXT-</p>
-              <span className="flex pl-1 lg:pl-2 lg:pt-3 text-lg lg:text-2xl text-primary">
+            <div className="flex pt-28 md:pl-2">
+              <p className="text-2xl lg:text-4xl xl:text-6xl font-bold">NEXT-</p>
+              <span className="flex pl-1 xl:pl-2 lg:pt-1 xl:pt-3 text-lg lg:text-xl xl:text-2xl text-primary">
                 commerce
               </span>
             </div>
@@ -46,10 +46,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-2 grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="col-span-2 grid grid-cols-1 gap-4  md:grid-cols-2">
           <div className="grid grid-cols-2 gap-4 sm:gap-8">
             <div>
-              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-tight lg:tracking-wider">
+              <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-normal lg:tracking-wider">
                 Solutions
               </h3>
               <div className="mt-4 space-y-2 lg:space-y-4">

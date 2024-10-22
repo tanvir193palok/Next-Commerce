@@ -41,7 +41,7 @@ const Search = () => {
 
   return (
     <div className="md:w-[50%] xl:w-full xl:max-w-xl relative flex mx-6">
-      <span className="absolute left-2 top-2 lg:left-4 md:top-3 lg:top-4 text-sm md:text-sm lg:text-lg xl:text-2xl text-gray-400">
+      <span className="absolute left-2 md:left-3 top-2 lg:left-4 md:top-4 text-sm md:text-sm lg:text-lg xl:text-2xl text-gray-400">
         <FontAwesomeIcon icon={faMagnifyingGlass} />
       </span>
       <input

@@ -10,7 +10,7 @@ const Navbar = async () => {
 
   return (
     <nav className="bg-gray-800">
-      <div className="flex md:container">
+      <div className="flex container">
         <div className="px-3 py-2 lg:px-8 md:py-3 lg:py-5 bg-primary items-center cursor-pointer relative group flex">
           <span className="text-white">
             <FontAwesomeIcon icon={faBars} />
