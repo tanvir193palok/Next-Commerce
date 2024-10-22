@@ -21,9 +21,9 @@ export const POST = async (request) => {
       { email },
       shippingAddress,
       {
-        new: true, // Return the updated document
-        upsert: true, // Create a new document if it doesn't exist
-        runValidators: true, // Validate the update operation
+        new: true, 
+        upsert: true, 
+        runValidators: true, 
       }
     );
 
