@@ -24,7 +24,7 @@ const Navbar = async () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-between flex-grow pl-2 md:pl-12 py-4 lg:py-5">
+        <div className="flex items-center justify-between flex-grow pl-2 md:pl-12 py-2 md:py-3 lg:py-5">
           <div className="flex items-center space-x-3 md:space-x-6 text-xs lg:text-sm xl:text-base md:uppercase">
             <Link
               href="/"
